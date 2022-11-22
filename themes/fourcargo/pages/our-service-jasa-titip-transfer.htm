@@ -1,0 +1,120 @@
+title = "Our Service - Jasa Titip Transfer"
+url = "/our-service-jasa-titip-transfer"
+layout = "default"
+is_hidden = 0
+section1jasfer_title = "Our Service"
+section1jasfer_background = "/bg.jpg"
+section2jasfer_title = "JASA TITIP TRANSFER"
+section2jasfer_description = "<p><span dir=\"ltr\">Tim kami melayani jasa transfer RMB (mata uang China) dan</span>
+	<br><span dir=\"ltr\">USD (mata uang dollar AS) kepada supplier di China</span>
+	<br><span dir=\"ltr\">yang aman untuk mempermudah Anda dalam melakukan transaksi.</span> <span dir=\"ltr\">Anda hanya perlu membayar dalam rupiah dan kami akan</span> <span dir=\"ltr\">melakukan pembayaran ke rekening supplier Anda di China</span> <span dir=\"ltr\">dan kami akan berikan bukti pembayaran secara lengkap dan detail.</span></p>"
+section2jasfer_image = "/147.png"
+section2jasfer_service1 = "VIA LAUT LCL"
+section2jasfer_service1_image = "/via laut lcl.png"
+section2jasfer_service2 = "VIA LAUT FCL"
+section2jasfer_service2_image = "/via laut fcl.png"
+section2jasfer_service3 = "VIA UDARA"
+section2jasfer_service3_image = "/via udara.png"
+section2jasfer_service4 = "JASA TITIP BELI"
+section2jasfer_service4_image = "/jasa titip beli.png"
+section2jasfer_service5 = "JASA TITIP TRANSFER"
+section2jasfer_service5_image = "/jasa titip transfer.png"
+sectionjasfer_title = "Info Lebih Lanjut"
+navbarjasfer_logo = "/logo.png"
+navbarjasfer_link1 = "Home"
+navbarjasfer_link2 = "About"
+navbarjasfer_link3 = "Service"
+navbarjasfer_link4 = "Tracking"
+navbarjasfer_link5 = "Jasa Belanja"
+navbarjasfer_link6 = "Artikel"
+navbarjasfer_link7 = "Contact"
+footerjasfer_logo = "/logo.png"
+footerjasfer_title = "CV. Dermaga Mulia Abadi"
+footerjasfer_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerjasfer_email = "<p>customercare@fourcargo.id</p>"
+footerjasfer_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerjasfer_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerjasfer_background = "/footer.jpg"
+
+[viewBag]
+footersosmedjasfer[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedjasfer[0][link] = "https://id-id.facebook.com/"
+footersosmedjasfer[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedjasfer[1][link] = "https://www.instagram.com/?hl=id"
+categoryservicejasfer[0][title] = "VIA LAUT LCL"
+categoryservicejasfer[0][image_non_active] = "/via laut lcl.png"
+categoryservicejasfer[0][image_active] = "/via laut lcl white.png"
+categoryservicejasfer[0][link_page] = "our-service-laut-lcl"
+categoryservicejasfer[1][title] = "VIA LAUT FCL"
+categoryservicejasfer[1][image_non_active] = "/via laut fcl.png"
+categoryservicejasfer[1][image_active] = "/via laut fcl white.png"
+categoryservicejasfer[1][link_page] = "our-service-laut-fcl"
+categoryservicejasfer[2][title] = "VIA UDARA"
+categoryservicejasfer[2][image_non_active] = "/via udara.png"
+categoryservicejasfer[2][image_active] = "/via udara white.png"
+categoryservicejasfer[2][link_page] = "our-service-air"
+categoryservicejasfer[3][title] = "JASA TITIP BELI"
+categoryservicejasfer[3][image_non_active] = "/jasa titip beli.png"
+categoryservicejasfer[3][image_active] = "/jasa titip beli white.png"
+categoryservicejasfer[3][link_page] = "our-service-jasa-titip-beli"
+categoryservicejasfer[4][title] = "JASA TITIP TRANSFER"
+categoryservicejasfer[4][image_non_active] = "/jasa titip transfer.png"
+categoryservicejasfer[4][image_active] = "/jasa titp transfer white.png"
+categoryservicejasfer[4][link_page] = "our-service-jasa-titip-transfer"
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarjasfer_link1 link2=this.page.navbarjasfer_link2
+link3=this.page.navbarjasfer_link3
+link4=this.page.navbarjasfer_link4 link5=this.page.navbarjasfer_link5 link6=this.page.navbarjasfer_link6
+link7=this.page.navbarjasfer_link7
+logo=this.page.navbarjasfer_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1jasfer_title bg=this.page.section1jasfer_background url=BASEURL %}
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2jasfer_service1 service1img=this.page.section2jasfer_service1_image
+  service2=this.page.section2jasfer_service2 service2img=this.page.section2jasfer_service2_image 
+  service3=this.page.section2jasfer_service3 service3img=this.page.section2jasfer_service3_image
+  service4=this.page.section2jasfer_service4 service4img=this.page.section2jasfer_service4_image
+  service5=this.page.section2jasfer_service5 service5img=this.page.section2jasfer_service5_image
+%}
+
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{ this.page.section2jasfer_image |media }}" alt="" class="object-cover" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+                {{ this.page.section2jasfer_title }}
+            </h2>
+            <div class="text-lg text-zinc-500 ">
+                {{ this.page.section2jasfer_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center bg-white shadow-md p-2 w-fit">
+            {{ this.page.sectionjasfer_title }}
+        </h1>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10 gap-4"></div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerjasfer_title address=this.page.footerjasfer_address
+email=this.page.footerjasfer_email
+phone=this.page.footerjasfer_phone copyright=this.page.footerjasfer_copyright background=this.page.footerjasfer_background
+logo=this.page.footerjasfer_logo link1=this.page.navbarjasfer_link1 link2=this.page.navbarjasfer_link2
+link3=this.page.navbarjasfer_link3
+link4=this.page.navbarjasfer_link4
+link5=this.page.navbarjasfer_link5 link6=this.page.navbarjasfer_link6 link7=this.page.navbarjasfer_link7 social_media=viewBag.footersosmedjasfer url=BASEURL %}

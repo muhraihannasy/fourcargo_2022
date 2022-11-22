@@ -1,0 +1,837 @@
+1668715128a:1:{s:8:"home.htm";a:70:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:24794:"title = "Home"
+url = "/"
+layout = "default"
+is_hidden = 0
+section1_title1 = "Jasa Forwarder"
+section1_title2 = "Impor Terpercaya"
+section1_title3 = "Seluruh Asia - Indonesia"
+section1_subtitle = "Konsultasi Gratis"
+section1_input_title = "Lacak Pengiriman"
+section1_input_placeholder = "MASUkAN NOMER RESI..."
+section1_background = "/cropped-images/bg-0-0-0-0-1652075480.jpg"
+section2_title1 = "Mengapa Four Cargo"
+section2_title2 = "Menjadi Jasa Forwarder Pilihan Terbaik?"
+section2_description = "<p>Dipercaya lebih dari 6 tahun dan menjadi salah satu jasa ekspedisi pengiriman barang dari Asia dan China ke Jakarta dan kota lainnya di Indonesia. Dan berikut kelebihan dari layanan yang kami berikan :</p>"
+section2_background = "/img-section-2.jpg"
+section2_service1 = "VIA LAUT LCL"
+section2_service1_image = "/via laut lcl.png"
+section2_service2 = "VIA LAUT FCL"
+section2_service2_image = "/via laut fcl.png"
+section2_service3 = "VIA UDARA"
+section2_service3_image = "/via udara.png"
+section2_service4 = "JASA TITIP BELI"
+section2_service4_image = "/jasa titip transfer.png"
+section2_service5 = "JASA TITIP TRANSFER"
+section2_service5_image = "/jasa titip beli.png"
+section3_title = "CARA IMPOR BARANG"
+section3_title_orange = "FOUR CARGO"
+section3_description = "<p style=\"text-align: center;\">Proses pengiriman dari Luar Negeri ke Jakarta dan kota lainnya bisa dibilang cukup rumit jika anda melakukannya sendiri, dengan bantuan dari kami jasa ekspedisi freight forwarding yang profesional dan terpercaya semuanya akan lebih mudah</p>"
+section3_line_image = "/line2.png"
+section5_title = "Hitung Biaya Pengiriman"
+section5_subtitle = "Shipping dari Negara?"
+section5_title_shipping = "Jalur pengiriman"
+section5_title_category_product = "Kategori Barang"
+section5_title_weight = "Berat (kg)"
+section5_title_volume = "Volume (m3)"
+section5_title_long = "Panjang (cm)"
+section5_title_wide = "Lebar (cm)"
+section5_title_tall = "Tinggi (cm)"
+section5_description_terms = "<p>* Minimal pengiriman 0.1cbm/ resi terima gudang/ supplier.&nbsp;</p>
+
+<p>* Harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm,&nbsp;</p>
+
+<p>&nbsp; &nbsp;warehousing, pengiriman, customs clearance, pajak &amp; bea masuk bersih sampai di Jakarta.</p>"
+section5_text_button = "CEK HARGA"
+section5_text_estimasi = "Estimasi Ongkir Sampai Jakarta :"
+section5_text_estimasi_tiba = "Estimasi tiba 4-5 Minggu"
+section6_title = "TESTIMONIALS"
+section6_title_orange = "FOUR CARGO"
+section6_description = "<p>Apakata sobat impor FOUR CARGO tentang jasa forwarder Asia - Indonesia yang diberikan, simak ulasan positif dari para pelanggan setia kami tentang jasa yang telah mereka gunakan</p>"
+section6_line_image = "/line2.png"
+section7_title = "PERNYATAAN SEPUTAR"
+section7_title_orange = "FOUR CARGO"
+section7_line_image = "/line2.png"
+navbar_logo = "/logo.png"
+navbar_link1 = "Home"
+navbar_link2 = "About"
+navbar_link3 = "Service"
+navbar_link4 = "Tracking"
+navbar_link5 = "Jasa Belanja"
+navbar_link6 = "Artikel"
+navbar_link7 = "Contact"
+footer_logo = "/logo.png"
+footer_title = "CV. Dermaga Mulia Abadi"
+footer_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footer_email = "<p>customercare@fourcargo.id</p>"
+footer_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footer_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footer_background = "/footer.jpg"
+
+[viewBag]
+servicecategory[0][title] = "VIA LAUT LCL"
+servicecategory[0][image] = "/via laut lcl.png"
+servicecategory[1][title] = "VIA LAUT FCL"
+servicecategory[1][image] = "/via laut fcl.png"
+servicecategory[2][title] = "VIA UDARA"
+servicecategory[2][image] = "/via udara.png"
+servicecategory[3][title] = "JASA TITIP BELI"
+servicecategory[3][image] = "/jasa titip beli.png"
+servicecategory[4][title] = "JASA TITIP TRANSFER"
+servicecategory[4][image] = "/jasa titip transfer.png"
+cardexcess[0][title] = "Live Tracking"
+cardexcess[0][description] = "Memberikan update track secara automatis posisi barang anda beserta resi pengiriman barang anda"
+cardexcess[0][background] = "\/cropped-images/img3-2-0-671-418-1652100955.jpg"
+cardexcess[1][title] = "Mudah & Praktis"
+cardexcess[1][description] = "Memberikan update track secara automatis posisi barang anda beserta resi pengiriman barang anda"
+cardexcess[1][background] = "/uploaded-files/img1.png"
+cardexcess[2][title] = "Transparant Terjangkau"
+cardexcess[2][description] = "Memberikan update track secara automatis posisi barang anda beserta resi pengiriman barang anda"
+cardexcess[2][background] = "/uploaded-files/img2.png"
+cardhow[0][number] = 01
+cardhow[0][title] = "Pengiriman barang atau pembelian barang dari Supplier"
+cardhow[0][background] = "/img1.jpg"
+cardhow[1][number] = 02
+cardhow[1][title] = "Barang dikirim kegudang kami di luar negeri"
+cardhow[1][background] = "/img2.jpg"
+cardtesti[3][image_testi] = "/testi1.png"
+cardtesti[4][image_testi] = "/testi2.png"
+faq[0][title] = "1. Apakah biaya sudah termasuk pengurusan PAJAK, BEA CUKAI, & CLEARANCE dan Asuransi Kehilangan Barang"
+faq[0][description] = "<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>"
+faq[1][title] = "2. Berapa Estimasi Pengiriman Dan Minimal  Kirim di Four Cargo?"
+faq[1][description] = "<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>"
+faq[2][title] = "3. Bagaimana Menghitung Barang?"
+faq[2][description] = "<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>"
+faq[3][title] = "4. Bagaimana Cara Pembayaran ?"
+faq[3][description] = "<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>"
+faq[4][title] = "5. Apakah Bisa Lacak Pengiriman Barang Secara Live ?"
+faq[4][description] = "<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>"
+galery[0][image] = "/faq.jpeg"
+galery[0][kutip] = "/Asset 6@2x.png"
+galery[1][image] = "/faq.jpeg"
+galery[1][kutip] = "/Asset 6@2x.png"
+galery[2][image] = "/faq.jpeg"
+galery[2][kutip] = "/Asset 6@2x.png"
+footersosmed[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmed[0][link] = "https://id-id.facebook.com/"
+footersosmed[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmed[1][link] = "https://www.instagram.com/?hl=id"
+==
+{% set BASEURL = 'http://127.0.0.1:8000' %}
+
+{% partial 'site/header' link1=this.page.navbar_link1 link2=this.page.navbar_link2 link3=this.page.navbar_link3 link4=this.page.navbar_link4 link5=this.page.navbar_link5 link6=this.page.navbar_link6 link7=this.page.navbar_link7 logo=this.page.navbar_logo url=BASEURL  %}
+
+  <section>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="{{ 'assets/image/Home/bg1.jpg'|theme }}" alt="" class="w-full">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{ 'assets/image/Home/bg2.jpg'|theme }}" alt="" class="w-full">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+  </section>
+
+
+
+  <!-- <section
+    class='bar-section-header h-45 bg-cover relative before:block before:absolute before:right-0 before:bg-linear-orange before:w-full xl:before:w-3/5 lg:before:w-3/4 lg:before:opacity-100 before:opacity-80 before:h-full' style="background-image: url({{ BASEURL }}{{ this.page.section1_background |media }});">
+    <div class="md:container md:mx-auto w-full h-full flex flex-col items-center pt-10">
+      <div class="w-full flex justify-center lg:justify-end md:justify-end tablets:justify-center tablets:items-center mb-36 z-10 lg:mx-7 pt-20 px-8">
+        <div class="content mt-20 lg:mr-16 md:mr-10 text-left lg:translate-x-16  tablets:mr-0">
+          <h1 class="sm:text-4/5xl text-4xl leading-tight text-white font-bold">
+            <span class="bg-linear-text-orange px-1 md:px-2 pb-4">{{ this.page.section1_title1 }}</span>
+            <br>
+            <span class="bg-linear-text-orange px-1 md:px-2 pb-3"> {{ this.page.section1_title2 }}</span>
+            <br>
+            <span class="px-1">{{ this.page.section1_title3 }}&nbsp;</span></h1>
+          <h4 class=" mt-4 text-xl text-orange1 font-bold bg-white w-fit py-0.5 px-2 rounded-xl">{{ this.page.section1_subtitle }}</h4>
+        </div>
+      </div>
+
+      <div class="lg:w-2/4 w-10/12 bg-white p-4 z-20 sm:-mt-0 -mt-10">
+        <label for="resi" class="text-grey font-medium">{{ this.page.section1_input_title }}</label>
+        <div class="w-full flex justify-between items-center sm:flex-row flex-col gap-3 mt-2">
+          <input
+            class="h-full sm:w-fit w-full flex-auto border py-4 px-5 font-semibold text-sm placeholder-slate-700 inline-block "
+            type="text" placeholder="{{ this.page.section1_input_placeholder }}" id="resi"/>
+            <button name="submit" class="sm:w-fit w-full py-3 px-9 text-lg bg-orange2 text-white font-extrabold " id="checkResi">
+              Lacak
+            </button>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section class="service-container relative md:h-96 bg-cover before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-black before:opacity-40 before:z-[-1] z-10 " style="background-image: url({{ BASEURL }}{{ this.page.section2_background |media }}); ">
+    <div class="md:container md:mx-auto sm:p-16 p-8  text-white">
+      <article class="content">
+        <h1 class="font-bold text-4xl mb-5 leading-snug">
+        <span class="px-1">{{ this.page.section2_title1 }}</span>
+        <br>
+        <span class="bg-white rounded-sm text-orange1 px-1">{{ this.page.section2_title2 }}
+        </span>
+      </h1>
+      <div class="lg:w-1/2 md:w-5/6">{{ this.page.section2_description|raw }}</div>
+      </article>
+
+      <div
+        class="service w-full flex flex-wrap sm:flex-row flex-col semi-tablets:items-center justify-center lg:translate-y-16 sm:translate-y-11 sm:mt-0 mt-10 text-center before:absolute  before:h-[27.5rem] before:sm:h-[24rem] before:md:h-[10rem] before:phones:top-[38rem] before:top-[30rem] before:left-0 before:sm:left-auto  before:sm:top-10 before:sm:mx-auto before:sm:mr-0 before:w-full
+         before:bg-white before:lg:w-[63rem] before:md:top-6 before:rounded-xl ">
+
+          <div class="flex">
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service1_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service1 }}</h5>
+            </div>
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service2_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service2 }}</h5>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service3_image|media }}" alt="Gambar Icon Service" />
+              <h5> {{ this.page.section2_service3 }}</h5>
+            </div>
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service4_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service4 }}</h5>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service5_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service5 }}</h5>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="overflow-hidden">
+    <div class="relative md:container md:mx-auto  flex justify-center items-center p-8 lg:mt-32 md:mt-80 mt-20">
+      <div class="lg:max-w-[67rem] md:max-w-4xl w-full">
+        <div class="owl-carousel owl-theme carousel-excess ">
+          {% for card in viewBag.cardexcess %}
+            <div class="card-excess relative  bg-bottom"
+              style="background-image: url({{ BASEURL }}{{ card.background |media }})">
+              <div class="card-body absolute bottom-0 text-white p-8">
+                <h2 class="font-bold">{{ card.title }}</h2>
+                <p class="italic">
+                  {{ card.description }}
+                </p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="relative md:container mx-auto mt-8 p-8 flex flex-col justify-center items-center">
+      <div class="content sm:text-center sm:p-0 p-8">
+        <h1 class="font-bold sm:text-3xl text-2xl text-center">
+          <span class="text-slate-600"> {{ this.page.section3_title }}</span>
+          <span class="text-orange1">{{ this.page.section3_title_orange }}</span>
+            <img
+              src="{{ BASEURL }}{{  this.page.section3_line_image |media }}"
+              class="mt-5 w-24 mx-auto"
+              alt=""
+            />
+        </h1>
+        <div class="mt-10 font-bold text-lg text-orange1 lg:px-40 sm:px-20 how-import-desk ">
+          {{ this.page.section3_description|raw }}
+        </div>
+      </div>
+
+      <div class="relative max-w-4xl w-full">
+        <div class="owl-carousel owl-theme carousel mt-8">
+          {% for card in viewBag.cardhow %}
+            <div class="card-how-to-impor relative bg-bottom" style="background-image: url({{ BASEURL }}{{ card.background |media }});">
+              <div class="card-body absolute bottom-0 text-white p-8">
+                <div class="circle w-28 h-28 absolute flex justify-center items-center font-bold text-4xl rounded-full">
+                  <h6>{{ card.number }}</h6>
+                </div>
+                <h3 class="font-bold">
+                  {{ card.title }}
+                </h3>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-orange1 mt-14">
+    <div class="md:container md:mx-auto">
+      <form action="" method="POST">
+        <div class="content grid lg:grid-cols-2 grid-cols-1 sm:p-16 p-8">
+          <div>
+            <div class="font-bold text-white mb-10">
+              <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium">{{ this.page.section5_title }}</h1>
+              <h2 class="sm:text-3xl text-2xl p-medium">{{ this.page.section5_subtitle }}</h2>
+            </div>
+
+            <div class="p-medium text-white">
+              <label class="font-bold">{{ this.page.section5_title_shipping }}</label>
+              <div class="flex mt-2 gap-6 jalur-pengiriman">
+                  <div class="flex gap-2 items-center">
+                    <input type="radio" name="pengiriman" id="via_laut" value="via laut" />
+                    <label for="via_laut">Via Laut</label>
+                  </div>
+                  <div class="flex gap-2 items-center">
+                    <input type="radio" name="pengiriman" id="via_udara" />
+                    <label for="via_udara">Via Udara</label>
+                  </div>
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+              <div class="input-group">
+                <label for="kategori">{{ this.page.section5_title_category_product }}</label>
+                <select id="kategori">
+                  
+                </select>
+              </div>
+              <div class="input-group">
+                <label for="berat">{{ this.page.section5_title_weight }}</label>
+                <input type="text" name="berat" id="berat"  />
+              </div>
+              <div class="input-group">
+                <label for="volume">{{ this.page.section5_title_volume }}</label>
+                <input type="text" name="volume" id="volume" />
+              </div>
+              <div class="input-group">
+                <label for="panjang">{{ this.page.section5_title_long }}</label>
+                <input type="text" name="panjang" id="panjang" />
+              </div>
+              <div class="input-group">
+                <label for="lebar">{{ this.page.section5_title_wide }}</label>
+                <input type="text" name="lebar" id="lebar" />
+              </div>
+              <div class="input-group">
+                <label for="tinggi">{{ this.page.section5_title_tall }}</label>
+                <input type="text" name="tinggi" id="tinggi" />
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col justify-start items-center lg:mt-0 mt-10">
+            
+            <div class="grid grid-cols-6 gap-4">
+              <div id="china" class="btn-country">
+                <h5>CN</h5>
+                <img src="{{ 'assets/image/Country/china.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="thailand" class="btn-country">
+                <h5>TH</h5>
+                <img src="{{ 'assets/image/Country/thailand.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="taiwan" class="btn-country">
+                <h5>TW</h5>
+                <img src="{{ 'assets/image/Country/taiwan.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="korea" class="btn-country">
+                <h5>KR</h5>
+                <img src="{{ 'assets/image/Country/korea.png'|theme }}" alt="" class="w-10 ">
+              </div>
+              <div id="singapura"  class="btn-country">
+                <h5>SG</h5>
+                <img src="{{ 'assets/image/Country/singapura.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="hongkong"  class="btn-country">
+                <h5>HK</h5>
+                <img src="{{ 'assets/image/Country/hongkong.png'|theme }}" alt="" class="w-10">
+              </div>
+            </div>
+            <div class="card card-estimasi bg-linear-text-orange pt-2 pb-10 px-3 rounded-3xl w-fit font-semibold text-white mt-10">
+              <!-- {{ this.page.section5_description_estimasi|raw }} -->
+              <h4>{{ this.page.section5_text_estimasi }}</h4>
+              <h3 class="mt-4" id="estimasi-harga">Rp 0,00</h3>
+              <h5>{{ this.page.section5_text_estimasi_tiba }}</h5>
+            </div>
+            <button
+              class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold" id="submit">
+              {{ this.page.section5_text_button }}
+            </button>
+          </div>
+        </div>
+        <div class="description text-white font-semibold lg:-translate-y-9 sm:px-20 px-8 sm:pb-16 pb-8">
+          {{ this.page.section5_description_terms|raw }}
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <div class="relative md:container md:mx-auto mt-8 p-8 flex flex-col justify-center items-center">
+      <div class="content sm:text-center sm:p-0 p-8">
+        <h1 class="font-bold sm:text-3xl text-2xl">
+          <span class="text-slate-600"> {{ this.page.section6_title }}</span>
+          <span class="text-orange1">{{ this.page.section6_title_orange }}</span>
+          <img src="{{ BASEURL }}{{ this.page.section6_line_image |media }}" class="mt-5 w-24 sm:mx-auto" alt="" />
+        </h1>
+        <div class="mt-10 font-bold text-lg text-orange1 lg:px-40 sm:px-20">
+          {{ this.page.section6_description|raw }}
+        </div>
+      </div>
+      <div class="relative max-w-4xl w-full mt-10">
+        <div class="owl-carousel owl-theme carousel-testi">
+          {% for card in viewBag.cardtesti %}
+            <div
+              class="card-testimoni relative  bg-cover bg-no-repeat bg-left" style="background-image: url({{ BASEURL }}{{ card.image_testi |media }});">
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="md:container md:mx-auto mt-6 flex flex-col justify-center items-center">
+      <div class="content max-w-4xl grid md:grid-cols-3 sm:grid-cols-2 gap-3 p-8">
+          {% for galery in viewBag.galery %}
+            <div class="img-group">
+              <img src="{{ BASEURL }}{{ galery.image |media}}" alt="" />
+              <div class="w-full h-64 kutip flex flex-row justify-center">
+                <img src="{{ BASEURL }}{{ galery.kutip |media}}" alt="" class="" />
+              </div>
+            </div>
+          {% endfor %}
+      </div>
+      <div class="faq mt-8 font-poppins p-8">
+        <h1 class="font-extrabold sm:text-3xl text-2xl text-center">
+          <span class="text-slate-600"> {{ this.page.section7_title }}</span>
+          <span class="text-orange1">{{ this.page.section7_title_orange }}</span>
+          <img src="{{ BASEURL }}{{ this.page.section7_line_image|media }}" class="mt-5 w-24 mx-auto" alt="" />
+        </h1>
+
+        <div class="relative flex flex-col items-center justify-center sm:px-0 px-0 z-20 pb-32 mt-10">
+          <div class="w-full max-w-5xl bg-white">
+            {% for faq in viewBag.faq %}
+              <div class="px-8 mb-2">
+                <div class="flex items-center justify-between ">
+                  <div>
+                    <h2
+                      class="text-base font-semibold leading-relaxed text-grey2 flex justify-center items-center gap-2 pt-6 ">
+                      <span class="iconify text-4xl  text-orange2 bells hidden" data-icon="bx:bell"></span>
+                      <span class="flex-1">{{ faq.title }}</span>
+                    </h2>
+                  </div>
+                  <button data-menu class="px-1 py-1.5 rounded dark:bg-gray-400  ring-offset-white cursor-pointer">
+                    <span class="iconify icon text-3xl hidden" data-icon="akar-icons:circle-minus"
+                      style="color: #ff5a01;"></span>
+                    <span class="iconify icon text-3xl ml-4" data-icon="akar-icons:circle-plus-fill"
+                      style="color: #ff5a01;"></span>
+                  </button>
+                </div>
+                <ul class="hidden">
+                  <li class="faq-description text-base leading-relaxed text-gray-600 dark:text-gray-200 mt-6  md:pl-10">
+                      {{ faq.description|raw }}
+                  </li>
+                </ul>
+                <hr class="mt-2 border-faq">
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <div class="contact-whatsapp fixed bottom-10 right-10 z-[999] w-16">
+    <a href="https://wa.me/6282114444792">
+      <img src="{{ 'assets/image/whatsapp.png'|theme }}" alt="oke">
+  </a>
+</div>
+
+
+
+  {% partial 'site/footer' title=this.page.footer_title address=this.page.footer_address email=this.page.footer_email phone=this.page.footer_phone copyright=this.page.footer_copyright background=this.page.footer_background logo=this.page.footer_logo link1=this.page.navbar_link1 link2=this.page.navbar_link2 link3=this.page.navbar_link3 link4=this.page.navbar_link4
+  link5=this.page.navbar_link5 link6=this.page.navbar_link6 link7=this.page.navbar_link7 social_media=viewBag.footersosmed url=BASEURL %}
+
+  <script>
+    const resi = document.getElementById("resi");
+    const btnCheckResi = document.getElementById("checkResi");
+
+    btnCheckResi.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.location.href = `http://127.0.0.1:8000/tracking?resi=${resi.value}`;
+    });
+
+ 
+  </script>";s:5:"mtime";i:1668712450;s:6:"markup";s:17488:"{% set BASEURL = 'http://127.0.0.1:8000' %}
+
+{% partial 'site/header' link1=this.page.navbar_link1 link2=this.page.navbar_link2 link3=this.page.navbar_link3 link4=this.page.navbar_link4 link5=this.page.navbar_link5 link6=this.page.navbar_link6 link7=this.page.navbar_link7 logo=this.page.navbar_logo url=BASEURL  %}
+
+  <section>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="{{ 'assets/image/Home/bg1.jpg'|theme }}" alt="" class="w-full">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{ 'assets/image/Home/bg2.jpg'|theme }}" alt="" class="w-full">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+  </section>
+
+
+
+  <!-- <section
+    class='bar-section-header h-45 bg-cover relative before:block before:absolute before:right-0 before:bg-linear-orange before:w-full xl:before:w-3/5 lg:before:w-3/4 lg:before:opacity-100 before:opacity-80 before:h-full' style="background-image: url({{ BASEURL }}{{ this.page.section1_background |media }});">
+    <div class="md:container md:mx-auto w-full h-full flex flex-col items-center pt-10">
+      <div class="w-full flex justify-center lg:justify-end md:justify-end tablets:justify-center tablets:items-center mb-36 z-10 lg:mx-7 pt-20 px-8">
+        <div class="content mt-20 lg:mr-16 md:mr-10 text-left lg:translate-x-16  tablets:mr-0">
+          <h1 class="sm:text-4/5xl text-4xl leading-tight text-white font-bold">
+            <span class="bg-linear-text-orange px-1 md:px-2 pb-4">{{ this.page.section1_title1 }}</span>
+            <br>
+            <span class="bg-linear-text-orange px-1 md:px-2 pb-3"> {{ this.page.section1_title2 }}</span>
+            <br>
+            <span class="px-1">{{ this.page.section1_title3 }}&nbsp;</span></h1>
+          <h4 class=" mt-4 text-xl text-orange1 font-bold bg-white w-fit py-0.5 px-2 rounded-xl">{{ this.page.section1_subtitle }}</h4>
+        </div>
+      </div>
+
+      <div class="lg:w-2/4 w-10/12 bg-white p-4 z-20 sm:-mt-0 -mt-10">
+        <label for="resi" class="text-grey font-medium">{{ this.page.section1_input_title }}</label>
+        <div class="w-full flex justify-between items-center sm:flex-row flex-col gap-3 mt-2">
+          <input
+            class="h-full sm:w-fit w-full flex-auto border py-4 px-5 font-semibold text-sm placeholder-slate-700 inline-block "
+            type="text" placeholder="{{ this.page.section1_input_placeholder }}" id="resi"/>
+            <button name="submit" class="sm:w-fit w-full py-3 px-9 text-lg bg-orange2 text-white font-extrabold " id="checkResi">
+              Lacak
+            </button>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section class="service-container relative md:h-96 bg-cover before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-black before:opacity-40 before:z-[-1] z-10 " style="background-image: url({{ BASEURL }}{{ this.page.section2_background |media }}); ">
+    <div class="md:container md:mx-auto sm:p-16 p-8  text-white">
+      <article class="content">
+        <h1 class="font-bold text-4xl mb-5 leading-snug">
+        <span class="px-1">{{ this.page.section2_title1 }}</span>
+        <br>
+        <span class="bg-white rounded-sm text-orange1 px-1">{{ this.page.section2_title2 }}
+        </span>
+      </h1>
+      <div class="lg:w-1/2 md:w-5/6">{{ this.page.section2_description|raw }}</div>
+      </article>
+
+      <div
+        class="service w-full flex flex-wrap sm:flex-row flex-col semi-tablets:items-center justify-center lg:translate-y-16 sm:translate-y-11 sm:mt-0 mt-10 text-center before:absolute  before:h-[27.5rem] before:sm:h-[24rem] before:md:h-[10rem] before:phones:top-[38rem] before:top-[30rem] before:left-0 before:sm:left-auto  before:sm:top-10 before:sm:mx-auto before:sm:mr-0 before:w-full
+         before:bg-white before:lg:w-[63rem] before:md:top-6 before:rounded-xl ">
+
+          <div class="flex">
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service1_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service1 }}</h5>
+            </div>
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service2_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service2 }}</h5>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service3_image|media }}" alt="Gambar Icon Service" />
+              <h5> {{ this.page.section2_service3 }}</h5>
+            </div>
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service4_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service4 }}</h5>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="service-box z-10">
+              <img src="{{ BASEURL }}{{ this.page.section2_service5_image|media }}" alt="Gambar Icon Service" />
+              <h5>{{ this.page.section2_service5 }}</h5>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="overflow-hidden">
+    <div class="relative md:container md:mx-auto  flex justify-center items-center p-8 lg:mt-32 md:mt-80 mt-20">
+      <div class="lg:max-w-[67rem] md:max-w-4xl w-full">
+        <div class="owl-carousel owl-theme carousel-excess ">
+          {% for card in viewBag.cardexcess %}
+            <div class="card-excess relative  bg-bottom"
+              style="background-image: url({{ BASEURL }}{{ card.background |media }})">
+              <div class="card-body absolute bottom-0 text-white p-8">
+                <h2 class="font-bold">{{ card.title }}</h2>
+                <p class="italic">
+                  {{ card.description }}
+                </p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="relative md:container mx-auto mt-8 p-8 flex flex-col justify-center items-center">
+      <div class="content sm:text-center sm:p-0 p-8">
+        <h1 class="font-bold sm:text-3xl text-2xl text-center">
+          <span class="text-slate-600"> {{ this.page.section3_title }}</span>
+          <span class="text-orange1">{{ this.page.section3_title_orange }}</span>
+            <img
+              src="{{ BASEURL }}{{  this.page.section3_line_image |media }}"
+              class="mt-5 w-24 mx-auto"
+              alt=""
+            />
+        </h1>
+        <div class="mt-10 font-bold text-lg text-orange1 lg:px-40 sm:px-20 how-import-desk ">
+          {{ this.page.section3_description|raw }}
+        </div>
+      </div>
+
+      <div class="relative max-w-4xl w-full">
+        <div class="owl-carousel owl-theme carousel mt-8">
+          {% for card in viewBag.cardhow %}
+            <div class="card-how-to-impor relative bg-bottom" style="background-image: url({{ BASEURL }}{{ card.background |media }});">
+              <div class="card-body absolute bottom-0 text-white p-8">
+                <div class="circle w-28 h-28 absolute flex justify-center items-center font-bold text-4xl rounded-full">
+                  <h6>{{ card.number }}</h6>
+                </div>
+                <h3 class="font-bold">
+                  {{ card.title }}
+                </h3>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-orange1 mt-14">
+    <div class="md:container md:mx-auto">
+      <form action="" method="POST">
+        <div class="content grid lg:grid-cols-2 grid-cols-1 sm:p-16 p-8">
+          <div>
+            <div class="font-bold text-white mb-10">
+              <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium">{{ this.page.section5_title }}</h1>
+              <h2 class="sm:text-3xl text-2xl p-medium">{{ this.page.section5_subtitle }}</h2>
+            </div>
+
+            <div class="p-medium text-white">
+              <label class="font-bold">{{ this.page.section5_title_shipping }}</label>
+              <div class="flex mt-2 gap-6 jalur-pengiriman">
+                  <div class="flex gap-2 items-center">
+                    <input type="radio" name="pengiriman" id="via_laut" value="via laut" />
+                    <label for="via_laut">Via Laut</label>
+                  </div>
+                  <div class="flex gap-2 items-center">
+                    <input type="radio" name="pengiriman" id="via_udara" />
+                    <label for="via_udara">Via Udara</label>
+                  </div>
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+              <div class="input-group">
+                <label for="kategori">{{ this.page.section5_title_category_product }}</label>
+                <select id="kategori">
+                  
+                </select>
+              </div>
+              <div class="input-group">
+                <label for="berat">{{ this.page.section5_title_weight }}</label>
+                <input type="text" name="berat" id="berat"  />
+              </div>
+              <div class="input-group">
+                <label for="volume">{{ this.page.section5_title_volume }}</label>
+                <input type="text" name="volume" id="volume" />
+              </div>
+              <div class="input-group">
+                <label for="panjang">{{ this.page.section5_title_long }}</label>
+                <input type="text" name="panjang" id="panjang" />
+              </div>
+              <div class="input-group">
+                <label for="lebar">{{ this.page.section5_title_wide }}</label>
+                <input type="text" name="lebar" id="lebar" />
+              </div>
+              <div class="input-group">
+                <label for="tinggi">{{ this.page.section5_title_tall }}</label>
+                <input type="text" name="tinggi" id="tinggi" />
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col justify-start items-center lg:mt-0 mt-10">
+            
+            <div class="grid grid-cols-6 gap-4">
+              <div id="china" class="btn-country">
+                <h5>CN</h5>
+                <img src="{{ 'assets/image/Country/china.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="thailand" class="btn-country">
+                <h5>TH</h5>
+                <img src="{{ 'assets/image/Country/thailand.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="taiwan" class="btn-country">
+                <h5>TW</h5>
+                <img src="{{ 'assets/image/Country/taiwan.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="korea" class="btn-country">
+                <h5>KR</h5>
+                <img src="{{ 'assets/image/Country/korea.png'|theme }}" alt="" class="w-10 ">
+              </div>
+              <div id="singapura"  class="btn-country">
+                <h5>SG</h5>
+                <img src="{{ 'assets/image/Country/singapura.png'|theme }}" alt="" class="w-10">
+              </div>
+              <div id="hongkong"  class="btn-country">
+                <h5>HK</h5>
+                <img src="{{ 'assets/image/Country/hongkong.png'|theme }}" alt="" class="w-10">
+              </div>
+            </div>
+            <div class="card card-estimasi bg-linear-text-orange pt-2 pb-10 px-3 rounded-3xl w-fit font-semibold text-white mt-10">
+              <!-- {{ this.page.section5_description_estimasi|raw }} -->
+              <h4>{{ this.page.section5_text_estimasi }}</h4>
+              <h3 class="mt-4" id="estimasi-harga">Rp 0,00</h3>
+              <h5>{{ this.page.section5_text_estimasi_tiba }}</h5>
+            </div>
+            <button
+              class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold" id="submit">
+              {{ this.page.section5_text_button }}
+            </button>
+          </div>
+        </div>
+        <div class="description text-white font-semibold lg:-translate-y-9 sm:px-20 px-8 sm:pb-16 pb-8">
+          {{ this.page.section5_description_terms|raw }}
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <div class="relative md:container md:mx-auto mt-8 p-8 flex flex-col justify-center items-center">
+      <div class="content sm:text-center sm:p-0 p-8">
+        <h1 class="font-bold sm:text-3xl text-2xl">
+          <span class="text-slate-600"> {{ this.page.section6_title }}</span>
+          <span class="text-orange1">{{ this.page.section6_title_orange }}</span>
+          <img src="{{ BASEURL }}{{ this.page.section6_line_image |media }}" class="mt-5 w-24 sm:mx-auto" alt="" />
+        </h1>
+        <div class="mt-10 font-bold text-lg text-orange1 lg:px-40 sm:px-20">
+          {{ this.page.section6_description|raw }}
+        </div>
+      </div>
+      <div class="relative max-w-4xl w-full mt-10">
+        <div class="owl-carousel owl-theme carousel-testi">
+          {% for card in viewBag.cardtesti %}
+            <div
+              class="card-testimoni relative  bg-cover bg-no-repeat bg-left" style="background-image: url({{ BASEURL }}{{ card.image_testi |media }});">
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="md:container md:mx-auto mt-6 flex flex-col justify-center items-center">
+      <div class="content max-w-4xl grid md:grid-cols-3 sm:grid-cols-2 gap-3 p-8">
+          {% for galery in viewBag.galery %}
+            <div class="img-group">
+              <img src="{{ BASEURL }}{{ galery.image |media}}" alt="" />
+              <div class="w-full h-64 kutip flex flex-row justify-center">
+                <img src="{{ BASEURL }}{{ galery.kutip |media}}" alt="" class="" />
+              </div>
+            </div>
+          {% endfor %}
+      </div>
+      <div class="faq mt-8 font-poppins p-8">
+        <h1 class="font-extrabold sm:text-3xl text-2xl text-center">
+          <span class="text-slate-600"> {{ this.page.section7_title }}</span>
+          <span class="text-orange1">{{ this.page.section7_title_orange }}</span>
+          <img src="{{ BASEURL }}{{ this.page.section7_line_image|media }}" class="mt-5 w-24 mx-auto" alt="" />
+        </h1>
+
+        <div class="relative flex flex-col items-center justify-center sm:px-0 px-0 z-20 pb-32 mt-10">
+          <div class="w-full max-w-5xl bg-white">
+            {% for faq in viewBag.faq %}
+              <div class="px-8 mb-2">
+                <div class="flex items-center justify-between ">
+                  <div>
+                    <h2
+                      class="text-base font-semibold leading-relaxed text-grey2 flex justify-center items-center gap-2 pt-6 ">
+                      <span class="iconify text-4xl  text-orange2 bells hidden" data-icon="bx:bell"></span>
+                      <span class="flex-1">{{ faq.title }}</span>
+                    </h2>
+                  </div>
+                  <button data-menu class="px-1 py-1.5 rounded dark:bg-gray-400  ring-offset-white cursor-pointer">
+                    <span class="iconify icon text-3xl hidden" data-icon="akar-icons:circle-minus"
+                      style="color: #ff5a01;"></span>
+                    <span class="iconify icon text-3xl ml-4" data-icon="akar-icons:circle-plus-fill"
+                      style="color: #ff5a01;"></span>
+                  </button>
+                </div>
+                <ul class="hidden">
+                  <li class="faq-description text-base leading-relaxed text-gray-600 dark:text-gray-200 mt-6  md:pl-10">
+                      {{ faq.description|raw }}
+                  </li>
+                </ul>
+                <hr class="mt-2 border-faq">
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <div class="contact-whatsapp fixed bottom-10 right-10 z-[999] w-16">
+    <a href="https://wa.me/6282114444792">
+      <img src="{{ 'assets/image/whatsapp.png'|theme }}" alt="oke">
+  </a>
+</div>
+
+
+
+  {% partial 'site/footer' title=this.page.footer_title address=this.page.footer_address email=this.page.footer_email phone=this.page.footer_phone copyright=this.page.footer_copyright background=this.page.footer_background logo=this.page.footer_logo link1=this.page.navbar_link1 link2=this.page.navbar_link2 link3=this.page.navbar_link3 link4=this.page.navbar_link4
+  link5=this.page.navbar_link5 link6=this.page.navbar_link6 link7=this.page.navbar_link7 social_media=viewBag.footersosmed url=BASEURL %}
+
+  <script>
+    const resi = document.getElementById("resi");
+    const btnCheckResi = document.getElementById("checkResi");
+
+    btnCheckResi.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.location.href = `http://127.0.0.1:8000/tracking?resi=${resi.value}`;
+    });
+
+ 
+  </script>";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:15:"section1_title1";s:14:"Jasa Forwarder";s:15:"section1_title2";s:16:"Impor Terpercaya";s:15:"section1_title3";s:24:"Seluruh Asia - Indonesia";s:17:"section1_subtitle";s:17:"Konsultasi Gratis";s:20:"section1_input_title";s:16:"Lacak Pengiriman";s:26:"section1_input_placeholder";s:21:"MASUkAN NOMER RESI...";s:19:"section1_background";s:41:"/cropped-images/bg-0-0-0-0-1652075480.jpg";s:15:"section2_title1";s:18:"Mengapa Four Cargo";s:15:"section2_title2";s:39:"Menjadi Jasa Forwarder Pilihan Terbaik?";s:20:"section2_description";s:208:"<p>Dipercaya lebih dari 6 tahun dan menjadi salah satu jasa ekspedisi pengiriman barang dari Asia dan China ke Jakarta dan kota lainnya di Indonesia. Dan berikut kelebihan dari layanan yang kami berikan :</p>";s:19:"section2_background";s:18:"/img-section-2.jpg";s:17:"section2_service1";s:12:"VIA LAUT LCL";s:23:"section2_service1_image";s:17:"/via laut lcl.png";s:17:"section2_service2";s:12:"VIA LAUT FCL";s:23:"section2_service2_image";s:17:"/via laut fcl.png";s:17:"section2_service3";s:9:"VIA UDARA";s:23:"section2_service3_image";s:14:"/via udara.png";s:17:"section2_service4";s:15:"JASA TITIP BELI";s:23:"section2_service4_image";s:24:"/jasa titip transfer.png";s:17:"section2_service5";s:19:"JASA TITIP TRANSFER";s:23:"section2_service5_image";s:20:"/jasa titip beli.png";s:14:"section3_title";s:17:"CARA IMPOR BARANG";s:21:"section3_title_orange";s:10:"FOUR CARGO";s:20:"section3_description";s:272:"<p style="text-align: center;">Proses pengiriman dari Luar Negeri ke Jakarta dan kota lainnya bisa dibilang cukup rumit jika anda melakukannya sendiri, dengan bantuan dari kami jasa ekspedisi freight forwarding yang profesional dan terpercaya semuanya akan lebih mudah</p>";s:19:"section3_line_image";s:10:"/line2.png";s:14:"section5_title";s:23:"Hitung Biaya Pengiriman";s:17:"section5_subtitle";s:21:"Shipping dari Negara?";s:23:"section5_title_shipping";s:16:"Jalur pengiriman";s:31:"section5_title_category_product";s:15:"Kategori Barang";s:21:"section5_title_weight";s:10:"Berat (kg)";s:21:"section5_title_volume";s:11:"Volume (m3)";s:19:"section5_title_long";s:12:"Panjang (cm)";s:19:"section5_title_wide";s:10:"Lebar (cm)";s:19:"section5_title_tall";s:11:"Tinggi (cm)";s:26:"section5_description_terms";s:274:"<p>* Minimal pengiriman 0.1cbm/ resi terima gudang/ supplier.&nbsp;</p>
+
+<p>* Harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm,&nbsp;</p>
+
+<p>&nbsp; &nbsp;warehousing, pengiriman, customs clearance, pajak &amp; bea masuk bersih sampai di Jakarta.</p>";s:20:"section5_text_button";s:9:"CEK HARGA";s:22:"section5_text_estimasi";s:32:"Estimasi Ongkir Sampai Jakarta :";s:27:"section5_text_estimasi_tiba";s:24:"Estimasi tiba 4-5 Minggu";s:14:"section6_title";s:12:"TESTIMONIALS";s:21:"section6_title_orange";s:10:"FOUR CARGO";s:20:"section6_description";s:184:"<p>Apakata sobat impor FOUR CARGO tentang jasa forwarder Asia - Indonesia yang diberikan, simak ulasan positif dari para pelanggan setia kami tentang jasa yang telah mereka gunakan</p>";s:19:"section6_line_image";s:10:"/line2.png";s:14:"section7_title";s:18:"PERNYATAAN SEPUTAR";s:21:"section7_title_orange";s:10:"FOUR CARGO";s:19:"section7_line_image";s:10:"/line2.png";s:11:"navbar_logo";s:9:"/logo.png";s:12:"navbar_link1";s:4:"Home";s:12:"navbar_link2";s:5:"About";s:12:"navbar_link3";s:7:"Service";s:12:"navbar_link4";s:8:"Tracking";s:12:"navbar_link5";s:12:"Jasa Belanja";s:12:"navbar_link6";s:7:"Artikel";s:12:"navbar_link7";s:7:"Contact";s:11:"footer_logo";s:9:"/logo.png";s:12:"footer_title";s:23:"CV. Dermaga Mulia Abadi";s:14:"footer_address";s:126:"<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>";s:12:"footer_email";s:32:"<p>customercare@fourcargo.id</p>";s:12:"footer_phone";s:50:"<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>";s:16:"footer_copyright";s:62:"<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>";s:17:"footer_background";s:11:"/footer.jpg";s:7:"viewBag";a:7:{s:15:"servicecategory";a:5:{i:0;a:2:{s:5:"title";s:12:"VIA LAUT LCL";s:5:"image";s:17:"/via laut lcl.png";}i:1;a:2:{s:5:"title";s:12:"VIA LAUT FCL";s:5:"image";s:17:"/via laut fcl.png";}i:2;a:2:{s:5:"title";s:9:"VIA UDARA";s:5:"image";s:14:"/via udara.png";}i:3;a:2:{s:5:"title";s:15:"JASA TITIP BELI";s:5:"image";s:20:"/jasa titip beli.png";}i:4;a:2:{s:5:"title";s:19:"JASA TITIP TRANSFER";s:5:"image";s:24:"/jasa titip transfer.png";}}s:10:"cardexcess";a:3:{i:0;a:3:{s:5:"title";s:13:"Live Tracking";s:11:"description";s:95:"Memberikan update track secara automatis posisi barang anda beserta resi pengiriman barang anda";s:10:"background";s:48:"\/cropped-images/img3-2-0-671-418-1652100955.jpg";}i:1;a:3:{s:5:"title";s:15:"Mudah & Praktis";s:11:"description";s:95:"Memberikan update track secara automatis posisi barang anda beserta resi pengiriman barang anda";s:10:"background";s:24:"/uploaded-files/img1.png";}i:2;a:3:{s:5:"title";s:22:"Transparant Terjangkau";s:11:"description";s:95:"Memberikan update track secara automatis posisi barang anda beserta resi pengiriman barang anda";s:10:"background";s:24:"/uploaded-files/img2.png";}}s:7:"cardhow";a:2:{i:0;a:3:{s:6:"number";s:2:"01";s:5:"title";s:53:"Pengiriman barang atau pembelian barang dari Supplier";s:10:"background";s:9:"/img1.jpg";}i:1;a:3:{s:6:"number";s:2:"02";s:5:"title";s:43:"Barang dikirim kegudang kami di luar negeri";s:10:"background";s:9:"/img2.jpg";}}s:9:"cardtesti";a:2:{i:3;a:1:{s:11:"image_testi";s:11:"/testi1.png";}i:4;a:1:{s:11:"image_testi";s:11:"/testi2.png";}}s:3:"faq";a:5:{i:0;a:2:{s:5:"title";s:102:"1. Apakah biaya sudah termasuk pengurusan PAJAK, BEA CUKAI, & CLEARANCE dan Asuransi Kehilangan Barang";s:11:"description";s:243:"<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>";}i:1;a:2:{s:5:"title";s:63:"2. Berapa Estimasi Pengiriman Dan Minimal  Kirim di Four Cargo?";s:11:"description";s:243:"<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>";}i:2;a:2:{s:5:"title";s:31:"3. Bagaimana Menghitung Barang?";s:11:"description";s:243:"<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>";}i:3;a:2:{s:5:"title";s:30:"4. Bagaimana Cara Pembayaran ?";s:11:"description";s:243:"<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>";}i:4;a:2:{s:5:"title";s:52:"5. Apakah Bisa Lacak Pengiriman Barang Secara Live ?";s:11:"description";s:243:"<p>Kami memberikan harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm, warehousing, pengiriman, custom clearance, pajak &amp; bea masuk bersih sampai di jakarta. Dan di jamin tidak ada biaya susulam / &nbsp;biaya siluman.</p>";}}s:6:"galery";a:3:{i:0;a:2:{s:5:"image";s:9:"/faq.jpeg";s:5:"kutip";s:15:"/Asset 6@2x.png";}i:1;a:2:{s:5:"image";s:9:"/faq.jpeg";s:5:"kutip";s:15:"/Asset 6@2x.png";}i:2;a:2:{s:5:"image";s:9:"/faq.jpeg";s:5:"kutip";s:15:"/Asset 6@2x.png";}}s:12:"footersosmed";a:2:{i:0;a:2:{s:4:"icon";s:44:"/uploaded-files/akar-icons_facebook-fill.png";s:4:"link";s:27:"https://id-id.facebook.com/";}i:1;a:2:{s:4:"icon";s:55:"/uploaded-files/entypo-social_instagram-with-circle.png";s:4:"link";s:32:"https://www.instagram.com/?hl=id";}}}}}

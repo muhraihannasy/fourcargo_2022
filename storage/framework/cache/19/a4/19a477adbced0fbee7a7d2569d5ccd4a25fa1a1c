@@ -1,0 +1,172 @@
+1668715128a:1:{s:11:"contact.htm";a:37:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:5254:"title = "Contact"
+url = "/contact"
+layout = "default"
+is_hidden = 0
+BASEURL = http://localhost:8080/fourcargo/
+section1contact_title = "Contact"
+section1contact_background = "/bg-truck.jpg"
+section2contact_title = "Hubungi Kami"
+section2contact_description = "<p style=\"text-align: center;\">Jika Anda mempunyai pertanyaan seputar jasa import atau seputar Four Cargo atau kerja sama lainnya, silahkan tinggalkan pesan Anda disini.</p>"
+section2contact_input_placeholder_name = "Nama Anda..."
+section2contact_input_placeholder_email = "Email Anda..."
+section2contact_input_placeholder_phone = "Nomor Handphone Anda..."
+section2contact_input_placeholder_message = "Pesan..."
+section2contact_text_button = "KIRIM"
+section2contact_line_image = "/line2.png"
+navbarcontact_logo = "/logo.png"
+navbarcontact_link1 = "Home"
+navbarcontact_link2 = "About"
+navbarcontact_link3 = "Service"
+navbarcontact_link4 = "Tracking"
+navbarcontact_link5 = "Jasa Belanja"
+navbarcontact_link6 = "Artikel"
+navbarcontact_link7 = "Contact"
+footercontact_logo = "/logo.png"
+footercontact_title = "CV. Dermaga Mulia Abadi"
+footercontact_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footercontact_email = "<p>customercare@fourcargo.id</p>"
+footercontact_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footercontact_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footercontact_background = "/footer.jpg"
+
+[viewBag]
+infofourcargocontact[0][title] = "Lokasi Kami"
+infofourcargocontact[0][description] = "<p style=\"text-align: center;\">Jl. Dermaga Raya No.322B RT.05/RW.05
+	<br>Kel. Klender Kec. Duren Sawit
+	<br>Jakarta Timur 13470, DKI Jakarta.</p>"
+infofourcargocontact[0][icon] = "/location.png"
+infofourcargocontact[1][title] = "WA"
+infofourcargocontact[1][description] = "<p style=\"text-align: center;\"><a href=\"https://wa.me/+6282114444866?text=Halo%20FourCargo,%20saya%20ingin%20bertanya\">082 11 4444 866</a></p>"
+infofourcargocontact[1][icon] = "/phone.png"
+infofourcargocontact[2][title] = "Email"
+infofourcargocontact[2][description] = "<p style=\"text-align: center;\">import@fourcargo.id</p>"
+infofourcargocontact[2][icon] = "/email.png"
+footersosmedcontact[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedcontact[0][link] = ""
+footersosmedcontact[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedcontact[1][link] = ""
+
+[contactform]
+==
+
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarcontact_link1 link2=this.page.navbarcontact_link2
+link3=this.page.navbarcontact_link3
+link4=this.page.navbarcontact_link4 link5=this.page.navbarcontact_link5 link6=this.page.navbarcontact_link6
+link7=this.page.navbarcontact_link7
+logo=this.page.navbarcontact_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1contact_title bg=this.page.section1contact_background url=BASEURL %}
+
+
+<section class="mt-20">
+    <div class="container mx-auto md:p-16 p-8 ">
+        <div class="title-tracking text-center mb-15 font-poppins p-8 flex flex-col items-center justify-center">
+            <h1
+                class="font-extrabold text-4xl text-center mb-12 text-blueOld flex items-center flex-col justify-center">
+                {{ this.page.section2contact_title }}
+                <img src="{{ this.page.BASEURL }}{{ this.page.section2contact_line_image |media }}" class="mt-5 w-24" alt="" />
+            </h1>
+            <div class="font-normal leading-snug  font-poppins text-grey lg:w-49">
+                {{ this.page.section2contact_description|raw }}
+            </div>
+        </div>
+
+        {% component 'contactform' %}
+    </div>
+</section>
+
+<section class="mt-20">
+    <div class="container md:p-16 p-8 mx-auto">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+            {% for contact in viewBag.infofourcargocontact %}
+                <div class="contant-info flex flex-col  items-center lg:mb-0 mb-10">
+                    <div class="contact-img">
+                        <img src="{{ this.page.BASEURL }}{{ contact.icon |media}}" alt="" class="w-24">
+                    </div>
+                    <h5 class="mt-6 mb-2 font-bold text-blueOld">{{ contact.title }}</h5>
+                    <div >
+                        {{ contact.description|raw }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+{% partial 'site/footer' title=this.page.footercontact_title address=this.page.footercontact_address
+email=this.page.footercontact_email
+phone=this.page.footercontact_phone copyright=this.page.footercontact_copyright
+background=this.page.footercontact_background
+logo=this.page.footercontact_logo link1=this.page.navbarcontact_link1 link2=this.page.navbarcontact_link2
+link3=this.page.navbarjasfer_link3
+link4=this.page.navbarcontact_link4
+link5=this.page.navbarcontact_link5 link6=this.page.navbarcontact_link6 link7=this.page.navbarcontact_link7 social_media=viewBag.footersosmedcontact url=BASEURL %}";s:5:"mtime";i:1654096540;s:6:"markup";s:2689:"{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarcontact_link1 link2=this.page.navbarcontact_link2
+link3=this.page.navbarcontact_link3
+link4=this.page.navbarcontact_link4 link5=this.page.navbarcontact_link5 link6=this.page.navbarcontact_link6
+link7=this.page.navbarcontact_link7
+logo=this.page.navbarcontact_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1contact_title bg=this.page.section1contact_background url=BASEURL %}
+
+
+<section class="mt-20">
+    <div class="container mx-auto md:p-16 p-8 ">
+        <div class="title-tracking text-center mb-15 font-poppins p-8 flex flex-col items-center justify-center">
+            <h1
+                class="font-extrabold text-4xl text-center mb-12 text-blueOld flex items-center flex-col justify-center">
+                {{ this.page.section2contact_title }}
+                <img src="{{ this.page.BASEURL }}{{ this.page.section2contact_line_image |media }}" class="mt-5 w-24" alt="" />
+            </h1>
+            <div class="font-normal leading-snug  font-poppins text-grey lg:w-49">
+                {{ this.page.section2contact_description|raw }}
+            </div>
+        </div>
+
+        {% component 'contactform' %}
+    </div>
+</section>
+
+<section class="mt-20">
+    <div class="container md:p-16 p-8 mx-auto">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+            {% for contact in viewBag.infofourcargocontact %}
+                <div class="contant-info flex flex-col  items-center lg:mb-0 mb-10">
+                    <div class="contact-img">
+                        <img src="{{ this.page.BASEURL }}{{ contact.icon |media}}" alt="" class="w-24">
+                    </div>
+                    <h5 class="mt-6 mb-2 font-bold text-blueOld">{{ contact.title }}</h5>
+                    <div >
+                        {{ contact.description|raw }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+{% partial 'site/footer' title=this.page.footercontact_title address=this.page.footercontact_address
+email=this.page.footercontact_email
+phone=this.page.footercontact_phone copyright=this.page.footercontact_copyright
+background=this.page.footercontact_background
+logo=this.page.footercontact_logo link1=this.page.navbarcontact_link1 link2=this.page.navbarcontact_link2
+link3=this.page.navbarjasfer_link3
+link4=this.page.navbarcontact_link4
+link5=this.page.navbarcontact_link5 link6=this.page.navbarcontact_link6 link7=this.page.navbarcontact_link7 social_media=viewBag.footersosmedcontact url=BASEURL %}";s:4:"code";N;s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"BASEURL";s:32:"http://localhost:8080/fourcargo/";s:21:"section1contact_title";s:7:"Contact";s:26:"section1contact_background";s:13:"/bg-truck.jpg";s:21:"section2contact_title";s:12:"Hubungi Kami";s:27:"section2contact_description";s:173:"<p style="text-align: center;">Jika Anda mempunyai pertanyaan seputar jasa import atau seputar Four Cargo atau kerja sama lainnya, silahkan tinggalkan pesan Anda disini.</p>";s:38:"section2contact_input_placeholder_name";s:12:"Nama Anda...";s:39:"section2contact_input_placeholder_email";s:13:"Email Anda...";s:39:"section2contact_input_placeholder_phone";s:23:"Nomor Handphone Anda...";s:41:"section2contact_input_placeholder_message";s:8:"Pesan...";s:27:"section2contact_text_button";s:5:"KIRIM";s:26:"section2contact_line_image";s:10:"/line2.png";s:18:"navbarcontact_logo";s:9:"/logo.png";s:19:"navbarcontact_link1";s:4:"Home";s:19:"navbarcontact_link2";s:5:"About";s:19:"navbarcontact_link3";s:7:"Service";s:19:"navbarcontact_link4";s:8:"Tracking";s:19:"navbarcontact_link5";s:12:"Jasa Belanja";s:19:"navbarcontact_link6";s:7:"Artikel";s:19:"navbarcontact_link7";s:7:"Contact";s:18:"footercontact_logo";s:9:"/logo.png";s:19:"footercontact_title";s:23:"CV. Dermaga Mulia Abadi";s:21:"footercontact_address";s:126:"<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>";s:19:"footercontact_email";s:32:"<p>customercare@fourcargo.id</p>";s:19:"footercontact_phone";s:50:"<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>";s:23:"footercontact_copyright";s:62:"<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>";s:24:"footercontact_background";s:11:"/footer.jpg";s:7:"viewBag";a:2:{s:20:"infofourcargocontact";a:3:{i:0;a:3:{s:5:"title";s:11:"Lokasi Kami";s:11:"description";s:147:"<p style="text-align: center;">Jl. Dermaga Raya No.322B RT.05/RW.05
+	<br>Kel. Klender Kec. Duren Sawit
+	<br>Jakarta Timur 13470, DKI Jakarta.</p>";s:4:"icon";s:13:"/location.png";}i:1;a:3:{s:5:"title";s:2:"WA";s:11:"description";s:142:"<p style="text-align: center;"><a href="https://wa.me/+6282114444866?text=Halo%20FourCargo,%20saya%20ingin%20bertanya">082 11 4444 866</a></p>";s:4:"icon";s:10:"/phone.png";}i:2;a:3:{s:5:"title";s:5:"Email";s:11:"description";s:54:"<p style="text-align: center;">import@fourcargo.id</p>";s:4:"icon";s:10:"/email.png";}}s:19:"footersosmedcontact";a:2:{i:0;a:2:{s:4:"icon";s:44:"/uploaded-files/akar-icons_facebook-fill.png";s:4:"link";s:0:"";}i:1;a:2:{s:4:"icon";s:55:"/uploaded-files/entypo-social_instagram-with-circle.png";s:4:"link";s:0:"";}}}s:11:"contactform";a:0:{}}}

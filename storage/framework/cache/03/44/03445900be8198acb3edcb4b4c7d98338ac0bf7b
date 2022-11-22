@@ -1,0 +1,372 @@
+1668715128a:1:{s:19:"our-service-air.htm";a:54:{s:8:"fileName";s:19:"our-service-air.htm";s:7:"content";s:12067:"title = "Our Service - Air"
+url = "/our-service-air"
+layout = "default"
+is_hidden = 0
+section1air_title = "Our Service"
+section1air_background = "/bg.jpg"
+section2air_title = "VIA UDARA"
+section2air_description = "<p>Pengiriman impor barang melalui jalur udara dengan estimasi waktu yang lebih cepat sekitar 5-7 hari solusi terbaik untuk barang ringan dan membutuhkan durasi pengiriman yang cepat.</p>"
+section2air_image = "/airplane-taking-off-from-airport.jpg"
+section2air_service1 = "VIA LAUT LCL"
+section2air_service1_image = "/via laut lcl.png"
+section2air_service2 = "VIA LAUT FCL"
+section2air_service2_image = "/via laut fcl.png"
+section2air_service3 = "VIA UDARA"
+section2air_service3_image = "/via udara.png"
+section2air_service4 = "JASA TITIP BELI"
+section2air_service4_image = "/jasa titip beli.png"
+section2air_service5 = "JASA TITIP TRANSFER"
+section2air_service5_image = "/jasa titip transfer.png"
+section3air_title = "Hitung Biaya Pengiriman"
+section3air_subtitle = "Shipping dari Negara?"
+section3air_title_shipping = "Jalur Pengiriman"
+section3air_title_category_product = "Kategori Barang"
+section3air_title_weight = "Berat (kg)"
+section3air_title_volume = "Jumlah Dus"
+section3air_title_long = "Panjang (cm)"
+section3air_title_wide = "Lebar (cm)"
+section3air_title_tall = "Tinggi (cm)"
+section3air_description_terms = "<p><span dir=\"ltr\">* Minimal pengiriman 1kg /resi terima gudang/ supplier.</span>
+	<br><span dir=\"ltr\">* Harga (All in) sudah termasuk Asuransi kehilangan.</span>
+	<br><span dir=\"ltr\">warehousing, pengiriman, custom clearance, pajak &amp; bea masuk</span>
+	<br><span dir=\"ltr\">bersih sampai di Jakarta, tidak ada biaya susulan siluman</span>!</p>"
+section3air_text_button = "CEK HARGA"
+section3air_background = "/bg-truck.jpg"
+section3air_text_estimasi = "Estimasi Ongkir Sampai Jakarta :"
+section3air_text_estimasi_tiba = "Estimasi tiba 4-5 Minggu"
+navbarair_logo = "/logo.png"
+navbarair_link1 = "Home"
+navbarair_link2 = "About"
+navbarair_link3 = "Service"
+navbarair_link4 = "Tracking"
+navbarair_link5 = "Jasa Belanja"
+navbarair_link6 = "Artikel"
+navbarair_link7 = "Contact"
+footerair_logo = "/logo.png"
+footerair_title = "CV. Dermaga Mulia Abadi"
+footerair_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerair_email = "<p>customercare@fourcargo.id</p>"
+footerair_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerair_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerair_background = "/footer.jpg"
+
+[viewBag]
+footersosmedair[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedair[0][link] = "https://id-id.facebook.com/"
+footersosmedair[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedair[1][link] = "https://www.instagram.com/?hl=id"
+categoryserviceair[0][title] = "VIA LAUT LCL"
+categoryserviceair[0][image_non_active] = "/via laut lcl.png"
+categoryserviceair[0][image_active] = "/via laut lcl white.png"
+categoryserviceair[0][link_page] = "our-service-laut-lcl"
+categoryserviceair[1][title] = "VIA LAUT FCL"
+categoryserviceair[1][image_non_active] = "/via laut fcl.png"
+categoryserviceair[1][image_active] = "/via laut fcl white.png"
+categoryserviceair[1][link_page] = "our-service-laut-fcl"
+categoryserviceair[2][title] = "VIA UDARA"
+categoryserviceair[2][image_non_active] = "/via udara.png"
+categoryserviceair[2][image_active] = "/via udara white.png"
+categoryserviceair[2][link_page] = "our-service-air"
+categoryserviceair[3][title] = "JASA TITIP BELI"
+categoryserviceair[3][image_non_active] = "/jasa titip beli.png"
+categoryserviceair[3][image_active] = "/jasa titip beli white.png"
+categoryserviceair[3][link_page] = "our-service-jasa-titip-beli"
+categoryserviceair[4][title] = "JASA TITIP TRANSFER"
+categoryserviceair[4][image_non_active] = "/jasa titip transfer.png"
+categoryserviceair[4][image_active] = "/jasa titp transfer white.png"
+categoryserviceair[4][link_page] = "our-service-jasa-titip-transfer"
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarair_link1 link2=this.page.navbarair_link2 link3=this.page.navbarair_link3
+link4=this.page.navbarair_link4 link5=this.page.navbarair_link5 link6=this.page.navbarair_link6
+link7=this.page.navbarair_link7 logo=this.page.navbarair_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1air_title bg=this.page.section1air_background url=BASEURL %}
+
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2air_service1 service1img=this.page.section2air_service1_image 
+  service2=this.page.section2air_service2 service2img=this.page.section2air_service2_image
+  service3=this.page.section2air_service3 service3img=this.page.section2air_service3_image
+  service4=this.page.section2air_service4 service4img=this.page.section2air_service4_image
+  service5=this.page.section2air_service5 service5img=this.page.section2air_service5_image 
+
+%}
+
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{ this.page.section2air_image|media }}" alt=""
+                    class="object-cover" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+                {{ this.page.section2air_title }}
+             </h2>
+            <div class="text-lg text-zinc-500 lg:pr-32">
+                {{ this.page.section2air_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-14 overflow-hidden relative bg-cover bg-center bg-no-repeat after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-orange1 after:opacity-90 z-20 after:z-[-1]" style="background-image: url({{ BASEURL }}{{ this.page.section3air_background|media }})">
+    <div class="md:container md:mx-auto">
+        <form action="" method="POST">
+            <div class="content grid lg:grid-cols-2 grid-cols-1 sm:p-16 p-8">
+              <div>
+                <div class="font-bold text-white mb-10">
+                  <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium">{{ this.page.section3air_title }}</h1>
+                  <h2 class="sm:text-3xl text-2xl p-medium">{{ this.page.section3air_subtitle }}</h2>
+                </div>
+    
+                <div class="p-medium text-white">
+                  <label class="font-bold">{{ this.page.section3air_title_shipping }}</label>
+                  <div class="flex mt-2 gap-6 jalur-pengiriman">
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_laut" value="via laut" />
+                        <label for="via_laut">Via Laut</label>
+                      </div>
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_udara" />
+                        <label for="via_udara">Via Udara</label>
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+                  <div class="input-group">
+                    <label for="kategori">{{ this.page.section3air_title_category_product }}</label>
+                    <select id="kategori">
+                      
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="berat">{{ this.page.section3air_title_weight }}</label>
+                    <input type="text" name="berat" id="berat"  />
+                  </div>
+                  <div class="input-group">
+                    <label for="volume">{{ this.page.section3air_title_volume }}</label>
+                    <input type="text" name="volume" id="volume" />
+                  </div>
+                  <div class="input-group">
+                    <label for="panjang">{{  this.page.section3air_title_long }}</label>
+                    <input type="text" name="panjang" id="panjang" />
+                  </div>
+                  <div class="input-group">
+                    <label for="lebar">{{ this.page.section3air_title_wide }}</label>
+                    <input type="text" name="lebar" id="lebar" />
+                  </div>
+                  <div class="input-group">
+                    <label for="tinggi">{{ this.page.section3air_title_tall }}</label>
+                    <input type="text" name="tinggi" id="tinggi" />
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start items-center lg:mt-0 mt-10">
+                
+                <div class="grid grid-cols-6 gap-4">
+                  <div id="china" class="btn-country">
+                    <h5>CN</h5>
+                    <img src="{{ 'assets/image/Country/china.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="thailand" class="btn-country">
+                    <h5>TH</h5>
+                    <img src="{{ 'assets/image/Country/thailand.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="taiwan" class="btn-country">
+                    <h5>TW</h5>
+                    <img src="{{ 'assets/image/Country/taiwan.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="korea" class="btn-country">
+                    <h5>KR</h5>
+                    <img src="{{ 'assets/image/Country/korea.png'|theme }}" alt="" class="w-10 ">
+                  </div>
+                  <div id="singapura"  class="btn-country">
+                    <h5>SG</h5>
+                    <img src="{{ 'assets/image/Country/singapura.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="hongkong"  class="btn-country">
+                    <h5>HK</h5>
+                    <img src="{{ 'assets/image/Country/hongkong.png'|theme }}" alt="" class="w-10">
+                  </div>
+                </div>
+                <div class="card card-estimasi bg-linear-text-orange pt-2 pb-10 px-3 rounded-3xl w-fit font-semibold text-white mt-10">
+                  <!-- {{ this.page.section5_description_estimasi|raw }} -->
+                  <h4>{{ this.page.section3air_text_estimasi }}</h4>
+                  <h3 class="mt-4" id="estimasi-harga">Rp 0,00</h3>
+                  <h5>{{ this.page.section3air_text_estimasi_tiba }}</h5>
+                </div>
+                <button
+                  class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold" id="submit">
+                  {{ this.page.section3air_text_button }}
+                </button>
+              </div>
+            </div>
+            <div class="description text-white font-semibold lg:-translate-y-9 sm:px-20 px-8 sm:pb-16 pb-8">
+              {{ this.page.section3air_description_terms|raw }}
+            </div>
+          </form>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerair_title address=this.page.footerair_address email=this.page.footerair_email
+phone=this.page.footerair_phone copyright=this.page.footerair_copyright background=this.page.footerair_background
+logo=this.page.footerair_logo link1=this.page.navbarair_link1 link2=this.page.navbarair_link2 link3=this.page.navbarair_link3   
+link4=this.page.navbarair_link4
+link5=this.page.navbarair_link5 link6=this.page.navbarair_link6 link7=this.page.navbarair_link7 social_media=viewBag.footersosmedair url=BASEURL %}";s:5:"mtime";i:1655262316;s:6:"markup";s:7922:"{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarair_link1 link2=this.page.navbarair_link2 link3=this.page.navbarair_link3
+link4=this.page.navbarair_link4 link5=this.page.navbarair_link5 link6=this.page.navbarair_link6
+link7=this.page.navbarair_link7 logo=this.page.navbarair_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1air_title bg=this.page.section1air_background url=BASEURL %}
+
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2air_service1 service1img=this.page.section2air_service1_image 
+  service2=this.page.section2air_service2 service2img=this.page.section2air_service2_image
+  service3=this.page.section2air_service3 service3img=this.page.section2air_service3_image
+  service4=this.page.section2air_service4 service4img=this.page.section2air_service4_image
+  service5=this.page.section2air_service5 service5img=this.page.section2air_service5_image 
+
+%}
+
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{ this.page.section2air_image|media }}" alt=""
+                    class="object-cover" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+                {{ this.page.section2air_title }}
+             </h2>
+            <div class="text-lg text-zinc-500 lg:pr-32">
+                {{ this.page.section2air_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-14 overflow-hidden relative bg-cover bg-center bg-no-repeat after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-orange1 after:opacity-90 z-20 after:z-[-1]" style="background-image: url({{ BASEURL }}{{ this.page.section3air_background|media }})">
+    <div class="md:container md:mx-auto">
+        <form action="" method="POST">
+            <div class="content grid lg:grid-cols-2 grid-cols-1 sm:p-16 p-8">
+              <div>
+                <div class="font-bold text-white mb-10">
+                  <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium">{{ this.page.section3air_title }}</h1>
+                  <h2 class="sm:text-3xl text-2xl p-medium">{{ this.page.section3air_subtitle }}</h2>
+                </div>
+    
+                <div class="p-medium text-white">
+                  <label class="font-bold">{{ this.page.section3air_title_shipping }}</label>
+                  <div class="flex mt-2 gap-6 jalur-pengiriman">
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_laut" value="via laut" />
+                        <label for="via_laut">Via Laut</label>
+                      </div>
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_udara" />
+                        <label for="via_udara">Via Udara</label>
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+                  <div class="input-group">
+                    <label for="kategori">{{ this.page.section3air_title_category_product }}</label>
+                    <select id="kategori">
+                      
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="berat">{{ this.page.section3air_title_weight }}</label>
+                    <input type="text" name="berat" id="berat"  />
+                  </div>
+                  <div class="input-group">
+                    <label for="volume">{{ this.page.section3air_title_volume }}</label>
+                    <input type="text" name="volume" id="volume" />
+                  </div>
+                  <div class="input-group">
+                    <label for="panjang">{{  this.page.section3air_title_long }}</label>
+                    <input type="text" name="panjang" id="panjang" />
+                  </div>
+                  <div class="input-group">
+                    <label for="lebar">{{ this.page.section3air_title_wide }}</label>
+                    <input type="text" name="lebar" id="lebar" />
+                  </div>
+                  <div class="input-group">
+                    <label for="tinggi">{{ this.page.section3air_title_tall }}</label>
+                    <input type="text" name="tinggi" id="tinggi" />
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start items-center lg:mt-0 mt-10">
+                
+                <div class="grid grid-cols-6 gap-4">
+                  <div id="china" class="btn-country">
+                    <h5>CN</h5>
+                    <img src="{{ 'assets/image/Country/china.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="thailand" class="btn-country">
+                    <h5>TH</h5>
+                    <img src="{{ 'assets/image/Country/thailand.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="taiwan" class="btn-country">
+                    <h5>TW</h5>
+                    <img src="{{ 'assets/image/Country/taiwan.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="korea" class="btn-country">
+                    <h5>KR</h5>
+                    <img src="{{ 'assets/image/Country/korea.png'|theme }}" alt="" class="w-10 ">
+                  </div>
+                  <div id="singapura"  class="btn-country">
+                    <h5>SG</h5>
+                    <img src="{{ 'assets/image/Country/singapura.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="hongkong"  class="btn-country">
+                    <h5>HK</h5>
+                    <img src="{{ 'assets/image/Country/hongkong.png'|theme }}" alt="" class="w-10">
+                  </div>
+                </div>
+                <div class="card card-estimasi bg-linear-text-orange pt-2 pb-10 px-3 rounded-3xl w-fit font-semibold text-white mt-10">
+                  <!-- {{ this.page.section5_description_estimasi|raw }} -->
+                  <h4>{{ this.page.section3air_text_estimasi }}</h4>
+                  <h3 class="mt-4" id="estimasi-harga">Rp 0,00</h3>
+                  <h5>{{ this.page.section3air_text_estimasi_tiba }}</h5>
+                </div>
+                <button
+                  class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold" id="submit">
+                  {{ this.page.section3air_text_button }}
+                </button>
+              </div>
+            </div>
+            <div class="description text-white font-semibold lg:-translate-y-9 sm:px-20 px-8 sm:pb-16 pb-8">
+              {{ this.page.section3air_description_terms|raw }}
+            </div>
+          </form>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerair_title address=this.page.footerair_address email=this.page.footerair_email
+phone=this.page.footerair_phone copyright=this.page.footerair_copyright background=this.page.footerair_background
+logo=this.page.footerair_logo link1=this.page.navbarair_link1 link2=this.page.navbarair_link2 link3=this.page.navbarair_link3   
+link4=this.page.navbarair_link4
+link5=this.page.navbarair_link5 link6=this.page.navbarair_link6 link7=this.page.navbarair_link7 social_media=viewBag.footersosmedair url=BASEURL %}";s:4:"code";N;s:5:"title";s:17:"Our Service - Air";s:3:"url";s:16:"/our-service-air";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"section1air_title";s:11:"Our Service";s:22:"section1air_background";s:7:"/bg.jpg";s:17:"section2air_title";s:9:"VIA UDARA";s:23:"section2air_description";s:187:"<p>Pengiriman impor barang melalui jalur udara dengan estimasi waktu yang lebih cepat sekitar 5-7 hari solusi terbaik untuk barang ringan dan membutuhkan durasi pengiriman yang cepat.</p>";s:17:"section2air_image";s:37:"/airplane-taking-off-from-airport.jpg";s:20:"section2air_service1";s:12:"VIA LAUT LCL";s:26:"section2air_service1_image";s:17:"/via laut lcl.png";s:20:"section2air_service2";s:12:"VIA LAUT FCL";s:26:"section2air_service2_image";s:17:"/via laut fcl.png";s:20:"section2air_service3";s:9:"VIA UDARA";s:26:"section2air_service3_image";s:14:"/via udara.png";s:20:"section2air_service4";s:15:"JASA TITIP BELI";s:26:"section2air_service4_image";s:20:"/jasa titip beli.png";s:20:"section2air_service5";s:19:"JASA TITIP TRANSFER";s:26:"section2air_service5_image";s:24:"/jasa titip transfer.png";s:17:"section3air_title";s:23:"Hitung Biaya Pengiriman";s:20:"section3air_subtitle";s:21:"Shipping dari Negara?";s:26:"section3air_title_shipping";s:16:"Jalur Pengiriman";s:34:"section3air_title_category_product";s:15:"Kategori Barang";s:24:"section3air_title_weight";s:10:"Berat (kg)";s:24:"section3air_title_volume";s:10:"Jumlah Dus";s:22:"section3air_title_long";s:12:"Panjang (cm)";s:22:"section3air_title_wide";s:10:"Lebar (cm)";s:22:"section3air_title_tall";s:11:"Tinggi (cm)";s:29:"section3air_description_terms";s:349:"<p><span dir="ltr">* Minimal pengiriman 1kg /resi terima gudang/ supplier.</span>
+	<br><span dir="ltr">* Harga (All in) sudah termasuk Asuransi kehilangan.</span>
+	<br><span dir="ltr">warehousing, pengiriman, custom clearance, pajak &amp; bea masuk</span>
+	<br><span dir="ltr">bersih sampai di Jakarta, tidak ada biaya susulan siluman</span>!</p>";s:23:"section3air_text_button";s:9:"CEK HARGA";s:22:"section3air_background";s:13:"/bg-truck.jpg";s:25:"section3air_text_estimasi";s:32:"Estimasi Ongkir Sampai Jakarta :";s:30:"section3air_text_estimasi_tiba";s:24:"Estimasi tiba 4-5 Minggu";s:14:"navbarair_logo";s:9:"/logo.png";s:15:"navbarair_link1";s:4:"Home";s:15:"navbarair_link2";s:5:"About";s:15:"navbarair_link3";s:7:"Service";s:15:"navbarair_link4";s:8:"Tracking";s:15:"navbarair_link5";s:12:"Jasa Belanja";s:15:"navbarair_link6";s:7:"Artikel";s:15:"navbarair_link7";s:7:"Contact";s:14:"footerair_logo";s:9:"/logo.png";s:15:"footerair_title";s:23:"CV. Dermaga Mulia Abadi";s:17:"footerair_address";s:126:"<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>";s:15:"footerair_email";s:32:"<p>customercare@fourcargo.id</p>";s:15:"footerair_phone";s:50:"<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>";s:19:"footerair_copyright";s:62:"<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>";s:20:"footerair_background";s:11:"/footer.jpg";s:7:"viewBag";a:2:{s:15:"footersosmedair";a:2:{i:0;a:2:{s:4:"icon";s:44:"/uploaded-files/akar-icons_facebook-fill.png";s:4:"link";s:27:"https://id-id.facebook.com/";}i:1;a:2:{s:4:"icon";s:55:"/uploaded-files/entypo-social_instagram-with-circle.png";s:4:"link";s:32:"https://www.instagram.com/?hl=id";}}s:18:"categoryserviceair";a:5:{i:0;a:4:{s:5:"title";s:12:"VIA LAUT LCL";s:16:"image_non_active";s:17:"/via laut lcl.png";s:12:"image_active";s:23:"/via laut lcl white.png";s:9:"link_page";s:20:"our-service-laut-lcl";}i:1;a:4:{s:5:"title";s:12:"VIA LAUT FCL";s:16:"image_non_active";s:17:"/via laut fcl.png";s:12:"image_active";s:23:"/via laut fcl white.png";s:9:"link_page";s:20:"our-service-laut-fcl";}i:2;a:4:{s:5:"title";s:9:"VIA UDARA";s:16:"image_non_active";s:14:"/via udara.png";s:12:"image_active";s:20:"/via udara white.png";s:9:"link_page";s:15:"our-service-air";}i:3;a:4:{s:5:"title";s:15:"JASA TITIP BELI";s:16:"image_non_active";s:20:"/jasa titip beli.png";s:12:"image_active";s:26:"/jasa titip beli white.png";s:9:"link_page";s:27:"our-service-jasa-titip-beli";}i:4;a:4:{s:5:"title";s:19:"JASA TITIP TRANSFER";s:16:"image_non_active";s:24:"/jasa titip transfer.png";s:12:"image_active";s:29:"/jasa titp transfer white.png";s:9:"link_page";s:31:"our-service-jasa-titip-transfer";}}}}}

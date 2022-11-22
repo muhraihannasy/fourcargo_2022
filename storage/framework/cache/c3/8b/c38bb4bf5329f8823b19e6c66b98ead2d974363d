@@ -1,0 +1,389 @@
+1668715128a:1:{s:24:"our-service-laut-fcl.htm";a:55:{s:8:"fileName";s:24:"our-service-laut-fcl.htm";s:7:"content";s:12673:"title = "Our Service - Laut FCL"
+url = "/our-service-laut-fcl"
+layout = "default"
+is_hidden = 0
+section1fcl_title = "Our Service"
+section1fcl_background = "/bg.jpg"
+section2fcl_title = "VIA LAUT FCL"
+section2fcl_description = "<p><span dir=\"ltr\">FCL (Full Container Load) adalah pengiriman barang impor</span> <span dir=\"ltr\">jalur laut dalam jumlah besar dengan 1 full container,</span> <span dir=\"ltr\">Size container 1 x 20 ft, 1 x 40 ft, 1 x 45 ft,</span> <span dir=\"ltr\">dapatkan harga penawaran FCL termurah dari kami biaya</span> <span dir=\"ltr\">sudah All in door to door ke seluruh Indonesia</span></p>"
+section2fcl_image = "/container-yard-logistic-import-export-concept.jpg"
+section2fcl_service1 = "VIA LAUT LCL"
+section2fcl_service1_image = "/via laut lcl.png"
+section2fcl_service2 = "VIA LAUT FCL"
+section2fcl_service2_image = "/via laut fcl.png"
+section2fcl_service3 = "VIA UDARA"
+section2fcl_service3_image = "/via udara.png"
+section2fcl_service4 = "JASA TITIP BELI"
+section2fcl_service4_image = "/jasa titip beli.png"
+section2fcl_service5 = "JASA TITIP TRANSFER"
+section2fcl_service5_image = "/jasa titip transfer.png"
+section3fcl_title = "Hitung Biaya Full Container"
+section3fcl_subtitle = "Silahkan isi form untuk menghitung biaya impor Full Container Load"
+section3fcl_title_input_name = "Nama Lengkap"
+section3fcl_title_input_email = "Email"
+section3fcl_title_input_wa = "Nomor Whatsapp"
+section3fcl_title_input_invoice = "Total Nilai Invoice"
+section3fcl_title_input_currency = "Mata Uang"
+section3fcl_title_input_container_type = "Container Type"
+section3fcl_title_input_country = "Negara Asal"
+section3fcl_title_input_destination_city = "Negara Tujuan"
+section3fcl_title_button = "Kota Tujuan"
+section3fcl_background = "/bg-truck.jpg"
+section3fcl_title_input_hscode = "HS Code"
+section4fcl_title = "Detail Size Full Container Load"
+section4fcl_image = "/Asset 12.png"
+navbarfcl_logo = "/logo.png"
+navbarfcl_link1 = "Home"
+navbarfcl_link2 = "About"
+navbarfcl_link3 = "Service"
+navbarfcl_link4 = "Tracking"
+navbarfcl_link5 = "Jasa Belanja"
+navbarfcl_link6 = "Artikel"
+navbarfcl_link7 = "Contact"
+footerfcl_logo = "/logo.png"
+footerfcl_title = "CV. Dermaga Mulia Abadi"
+footerfcl_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerfcl_email = "<p>customercare@fourcargo.id</p>"
+footerfcl_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerfcl_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerfcl_background = "/footer.jpg"
+
+[viewBag]
+footersosmedfcl[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedfcl[0][link] = "https://id-id.facebook.com/"
+footersosmedfcl[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedfcl[1][link] = "https://www.instagram.com/?hl=id"
+cactegoryservicefcl[0][title] = "VIA LAUT LCL"
+cactegoryservicefcl[0][image_non_active] = "/via laut lcl.png"
+cactegoryservicefcl[0][image_active] = "/via laut lcl white.png"
+cactegoryservicefcl[0][link_page] = "our-service-laut-lcl"
+cactegoryservicefcl[1][title] = "VIA LAUT FCL"
+cactegoryservicefcl[1][image_non_active] = "/via laut fcl.png"
+cactegoryservicefcl[1][image_active] = "/via laut fcl white.png"
+cactegoryservicefcl[1][link_page] = "our-service-laut-fcl"
+cactegoryservicefcl[2][title] = "VIA UDARA"
+cactegoryservicefcl[2][image_non_active] = "/via udara.png"
+cactegoryservicefcl[2][image_active] = "/via udara white.png"
+cactegoryservicefcl[2][link_page] = "our-service-air"
+cactegoryservicefcl[3][title] = "JASA TITIP BELI"
+cactegoryservicefcl[3][image_non_active] = "/jasa titip beli.png"
+cactegoryservicefcl[3][image_active] = "/jasa titip beli white.png"
+cactegoryservicefcl[3][link_page] = "our-service-jasa-titip-beli"
+cactegoryservicefcl[4][title] = "JASA TITIP TRANSFER"
+cactegoryservicefcl[4][image_non_active] = "/jasa titip transfer.png"
+cactegoryservicefcl[4][image_active] = "/jasa titp transfer white.png"
+cactegoryservicefcl[4][link_page] = "our-service-jasa-titip-transfer"
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarfcl_link1 link2=this.page.navbarfcl_link2
+link3=this.page.navbarfcl_link3
+link4=this.page.navbarfcl_link4 link5=this.page.navbarfcl_link5 link6=this.page.navbarfcl_link6
+link7=this.page.navbarfcl_link7
+logo=this.page.navbarfcl_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1fcl_title bg=this.page.section1fcl_background url=BASEURL %}
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2fcl_service1  service1img=this.page.section2fcl_service1_image
+  service2=this.page.section2fcl_service2 service2img=this.page.section2fcl_service2_image
+  service3=this.page.section2fcl_service3 service3img=this.page.section2fcl_service3_image
+  service4=this.page.section2fcl_service4 service4img=this.page.section2fcl_service4_image
+  service5=this.page.section2fcl_service5 service5img=this.page.section2fcl_service5_image    
+%}
+
+
+
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{  this.page.section2fcl_image |media }}" alt=""
+                    class="object-cover" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+            {{ this.page.section2fcl_title }}
+            </h2>
+            <div class="text-lg text-zinc-500 lg:pr-32">
+                {{ this.page.section2fcl_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section
+    class="mt-14 overflow-hidden relative bg-cover bg-center bg-no-repeat after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-orange1 after:opacity-90 z-20 after:z-[-1]" style="background-image: url({{ BASEURL }}{{ this.page.section3fcl_background|media }});">
+    <div class="md:container md:mx-auto">
+        <form action="" method="POST">
+            <div class="content sm:p-16 p-8 flex flex-col justify-center items-center">
+                <div>
+                    <div class="font-bold text-white mb-10 flex flex-col justify-center items-center">
+                        <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium text-center">
+                            {{ this.page.section3fcl_title }}
+                        </h1>
+                        <h2 class="sm:text-2xl text-1xl p-medium text-center">
+                            {{ this.page.section3fcl_subtitle }}
+                        </h2>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+                        <!-- <div class="input-group">
+                    <label for="kategori">Nama Lengkap</label>
+                    <select id="kategori">
+                      <option value="tas">Tas</option>
+                      <option value="saab">Baju</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
+                  </div> -->
+                        <div class="input-group">
+                            <label for="nama_lengkap">{{ this.page.section3fcl_title_input_name }}  </label>
+                            <input type="text" name="nama_lengkap" id="nama_lengkap" />
+                        </div>
+                        <div class="input-group">
+                            <label for="email">{{ this.page.section3fcl_title_input_email }} </label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="input-group">
+                            <label for="nomor_whatsapp">{{ this.page.section3fcl_title_input_wa }}</label>
+                            <input type="text" name="nomor_whatsapp" id="nomor_whatsapp" />
+                        </div>
+                        <div class="input-group">
+                            <label for="hs_code">{{ this.page.section3fcl_title_input_hscode }} </label>
+                            <input type="text" name="hs_code" id="hs_code" />
+                        </div>
+                        <div class="input-group">
+                            <label for="total_nilai_invoice">{{ this.page.section3fcl_title_input_invoice }}</label>
+                            <input type="text" name="total_nilai_invoice" id="total_nilai_invoice" />
+                        </div>
+                        <div class="input-group">
+                            <label for="mata_uang">{{ this.page.section3fcl_title_input_currency }}</label>
+                            <select id="mata_uang">
+                                <option value="rupiah">Rupiah</option>
+                                <option value="dolar">Dolar</option>
+                                <option value="ringit">Ringit</option>
+                                <option value="dolar_hongkong">Dolar Honkong</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="container_type">{{ this.page.section3fcl_title_input_container_type }}</label>
+                            <select id="container_type">
+                                <option value="20ft">20 ft</option>
+                                <option value="40ht">40 ft</option>
+                                <option value="40hc">40 Hc</option>
+                                <option value="45ft">45 ft</option>
+                           
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="negara_asal">{{ this.page.section3fcl_title_input_country }}</label>
+                            <select id="negara_asal">
+                                <option value="China">China</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Taiwan">Taiwan</option>
+                                <option value="Honkong">Honkong</option>
+                                <option value="Singapura">Singapura</option>
+                                <option value="Korea">Korea</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="kota_tujuan">{{ this.page.section3fcl_title_input_destination_city }}</label>
+                            <select id="kota_tujuan">
+                                <option value="Indonesia">Indonesia</option>
+        
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit"
+                    class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold">
+                    {{ this.page.section3fcl_title_button }}
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center bg-white shadow-md p-2 w-fit">
+        {{ this.page.section4fcl_title }}
+        </h1>
+        <div class="kategori-barang grid grid-cols-1 mt-10 place-items-center">
+            <div class="md:w-9/12 w-5/6">
+                <img src="{{ BASEURL }}{{ this.page.section4fcl_image|media }}" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerfcl_title address=this.page.footerfcl_address
+email=this.page.footerfcl_email
+phone=this.page.footerfcl_phone copyright=this.page.footerfcl_copyright
+background=this.page.footerfcl_background
+logo=this.page.footerfcl_logo link1=this.page.navbarfcl_link1 link2=this.page.navbarfcl_link2
+link3=this.page.navbarfcl_link3
+link4=this.page.navbarfcl_link4
+link5=this.page.navbarfcl_link5 link6=this.page.navbarfcl_link6 link7=this.page.navbarfcl_link7 social_media=viewBag.footersosmedfcl url=BASEURL %}";s:5:"mtime";i:1655263738;s:6:"markup";s:8506:"{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarfcl_link1 link2=this.page.navbarfcl_link2
+link3=this.page.navbarfcl_link3
+link4=this.page.navbarfcl_link4 link5=this.page.navbarfcl_link5 link6=this.page.navbarfcl_link6
+link7=this.page.navbarfcl_link7
+logo=this.page.navbarfcl_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1fcl_title bg=this.page.section1fcl_background url=BASEURL %}
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2fcl_service1  service1img=this.page.section2fcl_service1_image
+  service2=this.page.section2fcl_service2 service2img=this.page.section2fcl_service2_image
+  service3=this.page.section2fcl_service3 service3img=this.page.section2fcl_service3_image
+  service4=this.page.section2fcl_service4 service4img=this.page.section2fcl_service4_image
+  service5=this.page.section2fcl_service5 service5img=this.page.section2fcl_service5_image    
+%}
+
+
+
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{  this.page.section2fcl_image |media }}" alt=""
+                    class="object-cover" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+            {{ this.page.section2fcl_title }}
+            </h2>
+            <div class="text-lg text-zinc-500 lg:pr-32">
+                {{ this.page.section2fcl_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section
+    class="mt-14 overflow-hidden relative bg-cover bg-center bg-no-repeat after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-orange1 after:opacity-90 z-20 after:z-[-1]" style="background-image: url({{ BASEURL }}{{ this.page.section3fcl_background|media }});">
+    <div class="md:container md:mx-auto">
+        <form action="" method="POST">
+            <div class="content sm:p-16 p-8 flex flex-col justify-center items-center">
+                <div>
+                    <div class="font-bold text-white mb-10 flex flex-col justify-center items-center">
+                        <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium text-center">
+                            {{ this.page.section3fcl_title }}
+                        </h1>
+                        <h2 class="sm:text-2xl text-1xl p-medium text-center">
+                            {{ this.page.section3fcl_subtitle }}
+                        </h2>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+                        <!-- <div class="input-group">
+                    <label for="kategori">Nama Lengkap</label>
+                    <select id="kategori">
+                      <option value="tas">Tas</option>
+                      <option value="saab">Baju</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
+                  </div> -->
+                        <div class="input-group">
+                            <label for="nama_lengkap">{{ this.page.section3fcl_title_input_name }}  </label>
+                            <input type="text" name="nama_lengkap" id="nama_lengkap" />
+                        </div>
+                        <div class="input-group">
+                            <label for="email">{{ this.page.section3fcl_title_input_email }} </label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="input-group">
+                            <label for="nomor_whatsapp">{{ this.page.section3fcl_title_input_wa }}</label>
+                            <input type="text" name="nomor_whatsapp" id="nomor_whatsapp" />
+                        </div>
+                        <div class="input-group">
+                            <label for="hs_code">{{ this.page.section3fcl_title_input_hscode }} </label>
+                            <input type="text" name="hs_code" id="hs_code" />
+                        </div>
+                        <div class="input-group">
+                            <label for="total_nilai_invoice">{{ this.page.section3fcl_title_input_invoice }}</label>
+                            <input type="text" name="total_nilai_invoice" id="total_nilai_invoice" />
+                        </div>
+                        <div class="input-group">
+                            <label for="mata_uang">{{ this.page.section3fcl_title_input_currency }}</label>
+                            <select id="mata_uang">
+                                <option value="rupiah">Rupiah</option>
+                                <option value="dolar">Dolar</option>
+                                <option value="ringit">Ringit</option>
+                                <option value="dolar_hongkong">Dolar Honkong</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="container_type">{{ this.page.section3fcl_title_input_container_type }}</label>
+                            <select id="container_type">
+                                <option value="20ft">20 ft</option>
+                                <option value="40ht">40 ft</option>
+                                <option value="40hc">40 Hc</option>
+                                <option value="45ft">45 ft</option>
+                           
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="negara_asal">{{ this.page.section3fcl_title_input_country }}</label>
+                            <select id="negara_asal">
+                                <option value="China">China</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Taiwan">Taiwan</option>
+                                <option value="Honkong">Honkong</option>
+                                <option value="Singapura">Singapura</option>
+                                <option value="Korea">Korea</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="kota_tujuan">{{ this.page.section3fcl_title_input_destination_city }}</label>
+                            <select id="kota_tujuan">
+                                <option value="Indonesia">Indonesia</option>
+        
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit"
+                    class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold">
+                    {{ this.page.section3fcl_title_button }}
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center bg-white shadow-md p-2 w-fit">
+        {{ this.page.section4fcl_title }}
+        </h1>
+        <div class="kategori-barang grid grid-cols-1 mt-10 place-items-center">
+            <div class="md:w-9/12 w-5/6">
+                <img src="{{ BASEURL }}{{ this.page.section4fcl_image|media }}" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerfcl_title address=this.page.footerfcl_address
+email=this.page.footerfcl_email
+phone=this.page.footerfcl_phone copyright=this.page.footerfcl_copyright
+background=this.page.footerfcl_background
+logo=this.page.footerfcl_logo link1=this.page.navbarfcl_link1 link2=this.page.navbarfcl_link2
+link3=this.page.navbarfcl_link3
+link4=this.page.navbarfcl_link4
+link5=this.page.navbarfcl_link5 link6=this.page.navbarfcl_link6 link7=this.page.navbarfcl_link7 social_media=viewBag.footersosmedfcl url=BASEURL %}";s:4:"code";N;s:5:"title";s:22:"Our Service - Laut FCL";s:3:"url";s:21:"/our-service-laut-fcl";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"section1fcl_title";s:11:"Our Service";s:22:"section1fcl_background";s:7:"/bg.jpg";s:17:"section2fcl_title";s:12:"VIA LAUT FCL";s:23:"section2fcl_description";s:382:"<p><span dir="ltr">FCL (Full Container Load) adalah pengiriman barang impor</span> <span dir="ltr">jalur laut dalam jumlah besar dengan 1 full container,</span> <span dir="ltr">Size container 1 x 20 ft, 1 x 40 ft, 1 x 45 ft,</span> <span dir="ltr">dapatkan harga penawaran FCL termurah dari kami biaya</span> <span dir="ltr">sudah All in door to door ke seluruh Indonesia</span></p>";s:17:"section2fcl_image";s:50:"/container-yard-logistic-import-export-concept.jpg";s:20:"section2fcl_service1";s:12:"VIA LAUT LCL";s:26:"section2fcl_service1_image";s:17:"/via laut lcl.png";s:20:"section2fcl_service2";s:12:"VIA LAUT FCL";s:26:"section2fcl_service2_image";s:17:"/via laut fcl.png";s:20:"section2fcl_service3";s:9:"VIA UDARA";s:26:"section2fcl_service3_image";s:14:"/via udara.png";s:20:"section2fcl_service4";s:15:"JASA TITIP BELI";s:26:"section2fcl_service4_image";s:20:"/jasa titip beli.png";s:20:"section2fcl_service5";s:19:"JASA TITIP TRANSFER";s:26:"section2fcl_service5_image";s:24:"/jasa titip transfer.png";s:17:"section3fcl_title";s:27:"Hitung Biaya Full Container";s:20:"section3fcl_subtitle";s:66:"Silahkan isi form untuk menghitung biaya impor Full Container Load";s:28:"section3fcl_title_input_name";s:12:"Nama Lengkap";s:29:"section3fcl_title_input_email";s:5:"Email";s:26:"section3fcl_title_input_wa";s:14:"Nomor Whatsapp";s:31:"section3fcl_title_input_invoice";s:19:"Total Nilai Invoice";s:32:"section3fcl_title_input_currency";s:9:"Mata Uang";s:38:"section3fcl_title_input_container_type";s:14:"Container Type";s:31:"section3fcl_title_input_country";s:11:"Negara Asal";s:40:"section3fcl_title_input_destination_city";s:13:"Negara Tujuan";s:24:"section3fcl_title_button";s:11:"Kota Tujuan";s:22:"section3fcl_background";s:13:"/bg-truck.jpg";s:30:"section3fcl_title_input_hscode";s:7:"HS Code";s:17:"section4fcl_title";s:31:"Detail Size Full Container Load";s:17:"section4fcl_image";s:13:"/Asset 12.png";s:14:"navbarfcl_logo";s:9:"/logo.png";s:15:"navbarfcl_link1";s:4:"Home";s:15:"navbarfcl_link2";s:5:"About";s:15:"navbarfcl_link3";s:7:"Service";s:15:"navbarfcl_link4";s:8:"Tracking";s:15:"navbarfcl_link5";s:12:"Jasa Belanja";s:15:"navbarfcl_link6";s:7:"Artikel";s:15:"navbarfcl_link7";s:7:"Contact";s:14:"footerfcl_logo";s:9:"/logo.png";s:15:"footerfcl_title";s:23:"CV. Dermaga Mulia Abadi";s:17:"footerfcl_address";s:126:"<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>";s:15:"footerfcl_email";s:32:"<p>customercare@fourcargo.id</p>";s:15:"footerfcl_phone";s:50:"<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>";s:19:"footerfcl_copyright";s:62:"<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>";s:20:"footerfcl_background";s:11:"/footer.jpg";s:7:"viewBag";a:2:{s:15:"footersosmedfcl";a:2:{i:0;a:2:{s:4:"icon";s:44:"/uploaded-files/akar-icons_facebook-fill.png";s:4:"link";s:27:"https://id-id.facebook.com/";}i:1;a:2:{s:4:"icon";s:55:"/uploaded-files/entypo-social_instagram-with-circle.png";s:4:"link";s:32:"https://www.instagram.com/?hl=id";}}s:19:"cactegoryservicefcl";a:5:{i:0;a:4:{s:5:"title";s:12:"VIA LAUT LCL";s:16:"image_non_active";s:17:"/via laut lcl.png";s:12:"image_active";s:23:"/via laut lcl white.png";s:9:"link_page";s:20:"our-service-laut-lcl";}i:1;a:4:{s:5:"title";s:12:"VIA LAUT FCL";s:16:"image_non_active";s:17:"/via laut fcl.png";s:12:"image_active";s:23:"/via laut fcl white.png";s:9:"link_page";s:20:"our-service-laut-fcl";}i:2;a:4:{s:5:"title";s:9:"VIA UDARA";s:16:"image_non_active";s:14:"/via udara.png";s:12:"image_active";s:20:"/via udara white.png";s:9:"link_page";s:15:"our-service-air";}i:3;a:4:{s:5:"title";s:15:"JASA TITIP BELI";s:16:"image_non_active";s:20:"/jasa titip beli.png";s:12:"image_active";s:26:"/jasa titip beli white.png";s:9:"link_page";s:27:"our-service-jasa-titip-beli";}i:4;a:4:{s:5:"title";s:19:"JASA TITIP TRANSFER";s:16:"image_non_active";s:24:"/jasa titip transfer.png";s:12:"image_active";s:29:"/jasa titp transfer white.png";s:9:"link_page";s:31:"our-service-jasa-titip-transfer";}}}}}

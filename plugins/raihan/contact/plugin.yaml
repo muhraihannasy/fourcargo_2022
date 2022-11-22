@@ -1,0 +1,6 @@
+plugin:
+    name: 'raihan.contact::lang.plugin.name'
+    description: 'raihan.contact::lang.plugin.description'
+    author: Raihan
+    icon: oc-icon-info-circle
+    homepage: ''

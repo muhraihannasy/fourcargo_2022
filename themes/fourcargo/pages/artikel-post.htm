@@ -1,0 +1,140 @@
+title = "Artikel Post"
+url = "/artikel/:slug"
+layout = "default"
+is_hidden = 0
+
+section1artiked_title = "Artikel Post"
+section1artiked_background = "/bg.jpg"
+navbarartiked_logo = "/logo.png"
+navbarartiked_link1 = "Home"
+navbarartiked_link2 = "About"
+navbarartiked_link3 = "Service"
+navbarartiked_link4 = "Tracking"
+navbarartiked_link5 = "Jasa Belanja"
+navbarartiked_link6 = "Artikel"
+navbarartiked_link7 = "Contact"
+footerartiked_logo = "/logo.png"
+footerartiked_title = "CV. Dermaga Mulia Abadi"
+footerartiked_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerartiked_email = "<p>customercare@fourcargo.id</p>"
+footerartiked_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerartiked_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerartiked_background = "/footer.jpg"
+
+[viewBag]
+footersosmedartiked[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedartiked[0][link_sosmed] = ""
+footersosmedartiked[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedartiked[1][link_sosmed] = ""
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "about"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "created_at desc"
+categoryPage = "about"
+postPage = "about"
+==
+{% set posts = blogPosts.posts %}
+{% set post = blogPost.post %}    
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarartiked_link1 link2=this.page.navbarartiked_link2
+link3=this.page.navbarartiked_link3
+link4=this.page.navbarartiked_link4 link5=this.page.navbarartiked_link5 link6=this.page.navbarartiked_link6
+link7=this.page.navbarartiked_link7
+logo=this.page.navbarartiked_logo url=BASEURL %}
+
+{% partial 'site/banner-service' title=this.page.section1artiked_title bg=this.page.section1artiked_background url=BASEURL %}
+
+
+<section class="mt-20 mb-20">
+    <div class=" grid lg:grid-cols-3 grid-cols-1 p-6 mx-auto  gap-10">
+        <div class="lg:col-span-2">
+            {% if post.featured_images.count %}
+            <div class="featured-images text-center">
+                {% for image in post.featured_images %}
+                <p>
+                    <img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}" class="w-full" />
+                </p>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            
+            <div class="flex items-center gap-3 mt-8 text-grey">
+                <h5 class="flex items-center gap-2">
+                    <span class="iconify" data-icon="gridicons:user-circle"></span>
+                    Admin
+                    {{ post.published_by }}
+                </h5>
+                <h5 class="flex items-center gap-2">
+                    <span class="iconify" data-icon="akar-icons:clock"></span>
+                {{ post.published_at|date('M d, Y') }}
+                </h5>
+            </div>
+            <div class="content mt-5 content-artikel">
+                <h1>{{ post.title }}</h1>
+                {{ post.content_html|raw }}
+            </div>
+        </div>
+
+        <div class="recent-posts bg-slate-50 sm:p-6 p-6 h-max">
+            <div class="bg-white sm:p-8 p-4">
+                <h1 class="font-bold text-xl text-blueOld">Recent Posts</h1>
+
+                <ul class="post-list mt-10">
+                    {% for post in posts %}
+                        <li class="flex gap-5 items-center mb-5 ">
+                            {% if post.featured_images.count %}
+                                <div class="featured-images text-center sm:w-28 w-40">
+                                    {% for image in post.featured_images %}
+                                    <p class="">
+                                        <img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"
+                                            class="w-full" />
+                                    </p>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                            
+                            <div class=" w-full text-left">
+                                <h3 class="font-medium lg:text-sm"><a href="{{ BASEURL }}/artikel/{{ post.slug }}">{{ post.title }} </a> </h3>
+                                <p class="info">
+                                    {% if post.categories.count %} in {% endif %}
+                                    {% for category in post.categories %} 
+                                    <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                     <span class="text-grey mt-5 lg:text-sm">{{ post.published_at|date('M d, Y') }}</span>
+                                </p>
+                            </div>
+                        </li>
+                    {% else %}
+                        <li class="no-data">{{ blogPosts.noPostsMessage }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+</section>
+
+
+{% partial 'site/footer' title=this.page.footerartiked_title address=this.page.footerartiked_address
+email=this.page.footerartiked_email
+phone=this.page.footerartiked_phone copyright=this.page.footerartiked_copyright
+background=this.page.footerartiked_background
+logo=this.page.footerartiked_logo link1=this.page.navbarartiked_link1 link2=this.page.navbarartiked_link2
+link3= this.page.navbarartiked_link3
+link4=this.page.navbarartiked_link4
+link5=this.page.navbarartiked_link5 link6=this.page.navbarartiked_link6 social_media=viewBag.footersosmedartiked
+link7=this.page.navbarartiked_link7 url=BASEURL %}

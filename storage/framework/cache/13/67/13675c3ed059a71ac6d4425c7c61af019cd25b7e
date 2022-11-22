@@ -1,0 +1,182 @@
+1668715128a:1:{s:31:"our-service-jasa-titip-beli.htm";a:40:{s:8:"fileName";s:31:"our-service-jasa-titip-beli.htm";s:7:"content";s:6342:"title = "Our Service - Jasa Titip Beli"
+url = "/our-service-jasa-titip-beli"
+layout = "default"
+is_hidden = 0
+section1jastip_title = "Our Service"
+section1jastip_background = "/bg.jpg"
+section2jastip_title = "JASA TITIP BELI"
+section2jastip_description = "<p>Sobat Impor ingin berbelanja di marketplace China,&nbsp;</p>
+
+<p>tapi mengalami banyak kendala? Tidak Perlu Khawatir!&nbsp;</p>
+
+<p>Karena tim jasa belanja dari Four Cargo dapat membantu dalam proses pencarian supplier, negosiasi hingga pertanyaan lain seputar barang dari supplier China yang terpercaya agar terhindar dari penipuan Tentunya akan kami bantu proses belanja Anda hingga tuntas/beres.</p>"
+section2jastip_image = "/342.jpg"
+section2jastip_service1 = "VIA LAUT LCL"
+section2jastip_service1_image = "/via laut lcl.png"
+section2jastip_service2 = "VIA LAUT FCL"
+section2jastip_service2_image = "/via laut fcl.png"
+section2jastip_service3 = "VIA UDARA"
+section2jastip_service3_image = "/via udara.png"
+section2jastip_service4 = "JASA TITIP BELI"
+section2jastip_service4_image = "/jasa titip beli.png"
+section2jastip_service5 = "JASA TITIP TRANSFER"
+section2jastip_service5_image = "/jasa titip transfer.png"
+navbarjastip_logo = "/logo.png"
+navbarjastip_link1 = "Home"
+navbarjastip_link2 = "About"
+navbarjastip_link3 = "Service"
+navbarjastip_link4 = "Tracking"
+navbarjastip_link5 = "Jasa Belanja"
+navbarjastip_link6 = "Artikel"
+navbarjastip_link7 = "Contact"
+footerjastip_logo = "/logo.png"
+footerjastip_title = "CV. Dermaga Mulia Abadi"
+footerjastip_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerjastip_email = "<p><a href=\"mailto:customercare@fourcargo.id\">customercare@fourcargo.id</a></p>"
+footerjastip_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerjastip_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerjastip_background = "/footer.jpg"
+
+[viewBag]
+footersosmedjastip[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedjastip[0][link] = "https://id-id.facebook.com/"
+footersosmedjastip[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedjastip[1][link] = "https://www.instagram.com/?hl=id"
+categoryservicejastip[0][title] = "VIA LAUT LCL"
+categoryservicejastip[0][image_non_active] = "/via laut lcl.png"
+categoryservicejastip[0][image_active] = "/via laut lcl white.png"
+categoryservicejastip[0][link_page] = "our-service-laut-lcl"
+categoryservicejastip[1][title] = "VIA LAUT FCL"
+categoryservicejastip[1][image_non_active] = "/via laut fcl.png"
+categoryservicejastip[1][image_active] = "/via laut fcl white.png"
+categoryservicejastip[1][link_page] = "our-service-laut-fcl"
+categoryservicejastip[2][title] = "VIA UDARA"
+categoryservicejastip[2][image_non_active] = "/via udara.png"
+categoryservicejastip[2][image_active] = "/via udara white.png"
+categoryservicejastip[2][link_page] = "our-service-air"
+categoryservicejastip[3][title] = "JASA TITIP BELI"
+categoryservicejastip[3][image_non_active] = "/jasa titip beli.png"
+categoryservicejastip[3][image_active] = "/jasa titip beli white.png"
+categoryservicejastip[3][link_page] = "our-service-jasa-titip-beli"
+categoryservicejastip[4][title] = "JASA TITIP TRANSFER"
+categoryservicejastip[4][image_non_active] = "/jasa titip transfer.png"
+categoryservicejastip[4][image_active] = "/jasa titp transfer white.png"
+categoryservicejastip[4][link_page] = "our-service-jasa-titip-transfer"
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarjastip_link1 link2=this.page.navbarjastip_link2
+link3=this.page.navbarjastip_link3
+link4=this.page.navbarjastip_link4 link5=this.page.navbarjastip_link5 link6=this.page.navbarjastip_link6
+link7=this.page.navbarjastip_link7
+logo=this.page.navbarjastip_logo url=BASEURL%}
+{% partial 'site/banner-service' title=this.page.section1jastip_title bg=this.page.section1jastip_background url=BASEURL %}
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2jastip_service1 service1img=this.page.section2jastip_service1_image
+  service2=this.page.section2jastip_service2 service2img=this.page.section2jastip_service2_image
+  service3=this.page.section2jastip_service3 service3img=this.page.section2jastip_service3_image
+  service4=this.page.section2jastip_service4 service4img=this.page.section2jastip_service4_image
+  service5=this.page.section2jastip_service5 service5img=this.page.section2jastip_service5_image 
+%}
+
+
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{ this.page.section2jastip_image |media }}" alt="" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+                {{ this.page.section2jastip_title }}
+            </h2>
+            <div class="text-lg text-zinc-500 lg:pr-14">
+                {{ this.page.section2jastip_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center bg-white shadow-md p-2 w-fit">
+            Info Lebih Lanjut
+        </h1>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10 gap-4"></div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerjastip_title address=this.page.footerjastip_address
+email=this.page.footerjastip_email
+phone=this.page.footerjastip_phone copyright=this.page.footerjastip_copyright background=this.page.footerjastip_background
+logo=this.page.footerjastip_logo link1=this.page.navbarjastip_link1 link2=this.page.navbarjastip_link2
+link3=this.page.navbarjastip_link3
+link4=this.page.navbarjastip_link4
+link5=this.page.navbarjastip_link5 link6=this.page.navbarjastip_link6 link7=this.page.navbarjastip_link7 social_media=viewBag.footersosmedjastip url=BASEURL %}";s:5:"mtime";i:1655262662;s:6:"markup";s:2764:"{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarjastip_link1 link2=this.page.navbarjastip_link2
+link3=this.page.navbarjastip_link3
+link4=this.page.navbarjastip_link4 link5=this.page.navbarjastip_link5 link6=this.page.navbarjastip_link6
+link7=this.page.navbarjastip_link7
+logo=this.page.navbarjastip_logo url=BASEURL%}
+{% partial 'site/banner-service' title=this.page.section1jastip_title bg=this.page.section1jastip_background url=BASEURL %}
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2jastip_service1 service1img=this.page.section2jastip_service1_image
+  service2=this.page.section2jastip_service2 service2img=this.page.section2jastip_service2_image
+  service3=this.page.section2jastip_service3 service3img=this.page.section2jastip_service3_image
+  service4=this.page.section2jastip_service4 service4img=this.page.section2jastip_service4_image
+  service5=this.page.section2jastip_service5 service5img=this.page.section2jastip_service5_image 
+%}
+
+
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{ this.page.section2jastip_image |media }}" alt="" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+                {{ this.page.section2jastip_title }}
+            </h2>
+            <div class="text-lg text-zinc-500 lg:pr-14">
+                {{ this.page.section2jastip_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center bg-white shadow-md p-2 w-fit">
+            Info Lebih Lanjut
+        </h1>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10 gap-4"></div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerjastip_title address=this.page.footerjastip_address
+email=this.page.footerjastip_email
+phone=this.page.footerjastip_phone copyright=this.page.footerjastip_copyright background=this.page.footerjastip_background
+logo=this.page.footerjastip_logo link1=this.page.navbarjastip_link1 link2=this.page.navbarjastip_link2
+link3=this.page.navbarjastip_link3
+link4=this.page.navbarjastip_link4
+link5=this.page.navbarjastip_link5 link6=this.page.navbarjastip_link6 link7=this.page.navbarjastip_link7 social_media=viewBag.footersosmedjastip url=BASEURL %}";s:4:"code";N;s:5:"title";s:29:"Our Service - Jasa Titip Beli";s:3:"url";s:28:"/our-service-jasa-titip-beli";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:20:"section1jastip_title";s:11:"Our Service";s:25:"section1jastip_background";s:7:"/bg.jpg";s:20:"section2jastip_title";s:15:"JASA TITIP BELI";s:26:"section2jastip_description";s:409:"<p>Sobat Impor ingin berbelanja di marketplace China,&nbsp;</p>
+
+<p>tapi mengalami banyak kendala? Tidak Perlu Khawatir!&nbsp;</p>
+
+<p>Karena tim jasa belanja dari Four Cargo dapat membantu dalam proses pencarian supplier, negosiasi hingga pertanyaan lain seputar barang dari supplier China yang terpercaya agar terhindar dari penipuan Tentunya akan kami bantu proses belanja Anda hingga tuntas/beres.</p>";s:20:"section2jastip_image";s:8:"/342.jpg";s:23:"section2jastip_service1";s:12:"VIA LAUT LCL";s:29:"section2jastip_service1_image";s:17:"/via laut lcl.png";s:23:"section2jastip_service2";s:12:"VIA LAUT FCL";s:29:"section2jastip_service2_image";s:17:"/via laut fcl.png";s:23:"section2jastip_service3";s:9:"VIA UDARA";s:29:"section2jastip_service3_image";s:14:"/via udara.png";s:23:"section2jastip_service4";s:15:"JASA TITIP BELI";s:29:"section2jastip_service4_image";s:20:"/jasa titip beli.png";s:23:"section2jastip_service5";s:19:"JASA TITIP TRANSFER";s:29:"section2jastip_service5_image";s:24:"/jasa titip transfer.png";s:17:"navbarjastip_logo";s:9:"/logo.png";s:18:"navbarjastip_link1";s:4:"Home";s:18:"navbarjastip_link2";s:5:"About";s:18:"navbarjastip_link3";s:7:"Service";s:18:"navbarjastip_link4";s:8:"Tracking";s:18:"navbarjastip_link5";s:12:"Jasa Belanja";s:18:"navbarjastip_link6";s:7:"Artikel";s:18:"navbarjastip_link7";s:7:"Contact";s:17:"footerjastip_logo";s:9:"/logo.png";s:18:"footerjastip_title";s:23:"CV. Dermaga Mulia Abadi";s:20:"footerjastip_address";s:126:"<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>";s:18:"footerjastip_email";s:79:"<p><a href="mailto:customercare@fourcargo.id">customercare@fourcargo.id</a></p>";s:18:"footerjastip_phone";s:50:"<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>";s:22:"footerjastip_copyright";s:62:"<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>";s:23:"footerjastip_background";s:11:"/footer.jpg";s:7:"viewBag";a:2:{s:18:"footersosmedjastip";a:2:{i:0;a:2:{s:4:"icon";s:44:"/uploaded-files/akar-icons_facebook-fill.png";s:4:"link";s:27:"https://id-id.facebook.com/";}i:1;a:2:{s:4:"icon";s:55:"/uploaded-files/entypo-social_instagram-with-circle.png";s:4:"link";s:32:"https://www.instagram.com/?hl=id";}}s:21:"categoryservicejastip";a:5:{i:0;a:4:{s:5:"title";s:12:"VIA LAUT LCL";s:16:"image_non_active";s:17:"/via laut lcl.png";s:12:"image_active";s:23:"/via laut lcl white.png";s:9:"link_page";s:20:"our-service-laut-lcl";}i:1;a:4:{s:5:"title";s:12:"VIA LAUT FCL";s:16:"image_non_active";s:17:"/via laut fcl.png";s:12:"image_active";s:23:"/via laut fcl white.png";s:9:"link_page";s:20:"our-service-laut-fcl";}i:2;a:4:{s:5:"title";s:9:"VIA UDARA";s:16:"image_non_active";s:14:"/via udara.png";s:12:"image_active";s:20:"/via udara white.png";s:9:"link_page";s:15:"our-service-air";}i:3;a:4:{s:5:"title";s:15:"JASA TITIP BELI";s:16:"image_non_active";s:20:"/jasa titip beli.png";s:12:"image_active";s:26:"/jasa titip beli white.png";s:9:"link_page";s:27:"our-service-jasa-titip-beli";}i:4;a:4:{s:5:"title";s:19:"JASA TITIP TRANSFER";s:16:"image_non_active";s:24:"/jasa titip transfer.png";s:12:"image_active";s:29:"/jasa titp transfer white.png";s:9:"link_page";s:31:"our-service-jasa-titip-transfer";}}}}}

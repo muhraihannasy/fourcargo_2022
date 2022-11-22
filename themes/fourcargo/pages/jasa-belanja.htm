@@ -1,0 +1,170 @@
+title = "Jasa Belanja"
+url = "/jasa-belanja"
+layout = "default"
+is_hidden = 0
+section1jasa_title1 = "Jasa Belanja"
+section1jasa_title2 = "di China"
+section1jasa_background = "/cart.jpg"
+section2jasa_title = "Tidak Perlu Khawatir Dengan Persoalan Ini"
+section2jasa_icon = "/uploaded-files/Asset 12.png"
+section3jasa_title = "Benefit Menggunakan Jasa Belanja di Kami"
+section3jasa_icon = "/Asset 13.png"
+section4layanan_title = "Layanan Belanja"
+navbarjasa_logo = "/logo.png"
+navbarjasa_link1 = "Home"
+navbarjasa_link2 = "About"
+navbarjasa_link3 = "Service"
+navbarjasa_link4 = "Tracking"
+navbarjasa_link5 = "Jasa Belanja"
+navbarjasa_link6 = "Artikel"
+navbarjasa_link7 = "Contact"
+footerjasa_logo = "/logo.png"
+footerjasa_title = "CV. Dermaga Mulia Abadi"
+footerjasa_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerjasa_email = "<p>customercare@fourcargo.id</p>"
+footerjasa_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerjasa_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerjasa_background = "/footer.jpg"
+
+[viewBag]
+cardwarning[0][title] = "Kendala Komunikasi Berbahasa Mandarin"
+cardwarning[0][icon] = "/warning.png"
+cardwarning[0][background] = "/samsung-galaxy-note-9-re-review-after-6-months-0f2b5f78c5c382decc9e9ed352f3196a_600x400.jpg"
+cardwarning[1][title] = "Sulit Dapat Supplier Murah dan Terpercaya"
+cardwarning[1][icon] = "/warning.png"
+cardwarning[1][background] = "/samsung-galaxy-note-9-re-review-after-6-months-0f2b5f78c5c382decc9e9ed352f3196a_600x400.jpg"
+cardwarning[2][title] = "Metode Pembayaran yang sulit"
+cardwarning[2][icon] = "/warning.png"
+cardwarning[2][background] = "/samsung-galaxy-note-9-re-review-after-6-months-0f2b5f78c5c382decc9e9ed352f3196a_600x400.jpg"
+cardwarning[3][title] = "Tidak bisa QUALITY CONTROL Barang"
+cardwarning[3][icon] = "/warning.png"
+cardwarning[3][background] = "/samsung-galaxy-note-9-re-review-after-6-months-0f2b5f78c5c382decc9e9ed352f3196a_600x400.jpg"
+cardbenefit[0][title] = "Pencarian Supplier Tangan Pertama sehingga mendapatkan harga  MURAH, dan TERPERCAYA"
+cardbenefit[0][icon] = "/verified.png"
+cardbenefit[0][background] = "/img2.jpg"
+cardbenefit[1][title] = "Konsultasi GRATIS! Oleh Team Yang Berpengalaman dalam berbelanja di CHINA."
+cardbenefit[1][icon] = "/verified.png"
+cardbenefit[1][background] = "/img2.jpg"
+imagelayanan[0][image] = "/alibaba1.png"
+imagelayanan[1][image] = "/alibaba2.png"
+imagelayanan[2][image] = "/taobao.png"
+imagelayanan[3][image] = "/AliExpress-Logo.wine.png"
+imagelayanan[4][image] = "/madeinchina.png"
+imagelayanan[5][image] = "/Tmall-Logo.png"
+footersosmedjasa[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedjasa[0][link] = "https://id-id.facebook.com/"
+footersosmedjasa[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedjasa[1][link] = "https://www.instagram.com/?hl=id"
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarjasa_link1 link2=this.page.navbarjasa_link2
+link3=this.page.navbarjasa_link3
+link4=this.page.navbarjasa_link4 link5=this.page.navbarjasa_link5 link6=this.page.navbarjasa_link6 link7=this.page.navbarjasa_link7
+logo=this.page.navbarjasa_logo %}
+
+<section
+    class="h-97 bg-cover bg-center bg-no-repeat relative before:block before:absolute before:right-0 before:bg-linear-orange before:w-full xl:before:w-2/4 lg:before:w-3/5 md:before:w-3/4 sm:before:opacity-100 before:opacity-80 before:h-full" style="background-image: url({{ BASEURL }}{{ this.page.section1jasa_background |media }});">
+    <div class="md:container md:mx-auto w-full h-full flex flex-col items-center pt-10">
+        <div class="w-full flex justify-center lg:justify-end md:justify-end mb-36 z-10 lg:mx-7 pt-20">
+            <div class="content mt-20 lg:mr-16 md:mr-10 md:text-left text-center -translate-y-3">
+                <h1 class="sm:text-6xl text-3xl text-white font-semibold md:-translate-x-7 md:-translate-y-4">
+                    {{ this.page.section1jasa_title1 }}
+                    <br>
+                    {{ this.page.section1jasa_title2 }}
+                </h1>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center justify-center">
+        <div class="title bg-white shadow-md p-4 flex items-center sm:gap-1 lg:flex-row flex-col gap-2">
+            <img src="{{ BASEURL }}{{ this.page.section2jasa_icon |media }}" alt="" class="w-20 lg:ml-4 translate-x-3" />
+            <h1 class="text-semired font-bold sm:text-3xl text-2xl text-center lg:w-96 sm:w-80 w-fit">
+                {{ this.page.section2jasa_title }}
+            </h1>
+        </div>
+        <div
+            class="jasa-belanja-anxiety grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10 gap-4 max-w-5xl">
+            {% for card in  viewBag.cardwarning %}
+                <div class="jasa-belanja-anxiety-item">
+                    <img src="{{ BASEURL }}{{ card.background |media }}"
+                        alt="" class="w-full h-full object-cover" />
+                    <h4 class="absolute bottom-4 left-6 text-white font-bold text-1xl">
+                        <img src="{{ BASEURL }}{{ card.icon|media }}" alt="" class="w-8 mb-1" />
+                        {{ card.title }}
+                    </h4>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="md:container md:mx-auto mt-8 p-8 flex flex-col justify-center items-center">
+        <div class="title bg-white shadow-md p-4 flex items-center sm:gap-1 lg:flex-row flex-col gap-2">
+            <img src="{{ BASEURL }}{{ this.page.section3jasa_icon|media }}" alt="" class="w-20 lg:ml-4 translate-x-3" />
+            <h1 class="text-semired font-bold sm:text-3xl text-2xl text-center lg:w-96 sm:w-80 w-fit">
+                {{ this.page.section3jasa_title }}
+            </h1>
+        </div>
+
+        <div class="relative max-w-3xl w-full mt-10">
+            <div class="owl-carousel owl-theme carousel">
+                {% for card in  viewBag.cardbenefit  %}
+                    <div class="card-benefit relative  bg-bottom" style="background-image: url({{ BASEURL }}{{ card.background|media }});">
+                        <div class="card-body absolute bottom-0 text-white">
+                            <img src="{{ BASEURL }}{{ card.icon|media }}" alt="" />
+                            <h3 class="font-bold">
+                                {{ card.title }}
+                            </h3>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center bg-white shadow-md p-2 w-fit">
+            {{ this.page.section4layanan_title }}
+        </h1>
+        <div
+            class="layanan-belanja grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10 sm:gap-0 gap-4 items-center">
+            {% for image in viewBag.imagelayanan %}
+                <div class="layanan-belanja-item">
+                    <img src="{{ BASEURL }}{{ image.image|media }}" alt="" />
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center bg-white shadow-md p-2 w-fit">
+            Info Lebih Lanjut
+        </h1>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10 gap-4"></div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerjasa_title address=this.page.footerjasa_address
+email=this.page.footerjasa_email
+phone=this.page.footerjasa_phone copyright=this.page.footerjasa_copyright
+background=this.page.footerjasa_background
+logo=this.page.footerjasa_logo link1=this.page.navbarjasa_link1 link2=this.page.navbarjasa_link2
+link3=this.page.navbarjasa_link3
+link4=this.page.navbarjasa_link4
+link5=this.page.navbarjasa_link5 link6=this.page.navbarjasa_link6 social_media=viewBag.footersosmedjasa link7=this.page.navbarjasa_link7 %}

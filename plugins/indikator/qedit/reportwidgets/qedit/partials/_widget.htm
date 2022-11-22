@@ -1,0 +1,51 @@
+<div class="report-widget">
+    <h3 style="margin-bottom:25px;"><?= e(trans($this->property('title'))) ?></h3>
+
+<?php if (!isset($error)): ?>
+    <form>
+        <p>
+            <select name="page" onchange="QeditPage(this);" class="form-control custom-select" style="width:100%;">
+                <option value=""><?= e(trans('indikator.qedit::lang.widget.select')) ?></option>
+                <?= $items ?>
+            </select>
+        </p>
+        <p>
+            <div<?php if ($this->property('editor') == 'rich') echo ' class="field-richeditor size-'.$this->property('size').'" data-editor-lang="'.App::getLocale().'" data-control="richeditor"'; ?>>
+                <textarea name="content" class="qedit-textarea"<?php if ($this->property('editor') == 'none') echo ' style="border:1px solid #d1d6d9;height:'.$this->property('height').'px;width:100%;"'; ?>></textarea>
+                <?php if ($this->property('editor') == 'rich') echo '<div class="height-indicator"></div>'; ?>
+            </div>
+        </p>
+        <p>
+            <button
+                type="submit"
+                data-request="<?= $this->getEventHandler('onQeditSave') ?>"
+                data-hotkey="ctrl+s, cmd+s"
+                class="btn btn-primary">
+                <?= e(trans('backend::lang.form.save')) ?>
+            </button>
+            <span style="margin-left:10px;"><?= e(trans('indikator.qedit::lang.widget.modify')) ?>: <strong class="qedit-date"><?= e(trans('indikator.qedit::lang.widget.nodate')) ?></strong></span>
+        </p>
+    </form>
+
+<?php else: ?>
+    <p class="flash-message static warning"><?= e($error) ?></p>
+<?php endif ?>
+</div>
+
+<script type="text/javascript">
+function QeditPage(path) {
+    /* Content */
+    $.post('<?= Backend::url('indikator/qedit/content') ?>?path=' + path.value, function(data, status) {
+        if ($('.field-richeditor').length == 0) {
+            $('.qedit-textarea').val(data);
+        }
+        else {
+            $('.qedit-textarea').froalaEditor('html.set', data);
+        }
+    });
+    /* Date */
+    $.post('<?= Backend::url('indikator/qedit/date') ?>?path=' + path.value, function(data, status) {
+        $('.qedit-date').html(data);
+    });
+}
+</script>

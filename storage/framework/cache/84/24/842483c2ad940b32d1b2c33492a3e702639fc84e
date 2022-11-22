@@ -1,0 +1,119 @@
+1668715129a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2189:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fourcargo - {{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <meta name="author" content="Fourcargo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Fourcargo">
+    <!-- <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}"> -->
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="{{ 'assets/css/owl.theme.default.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/owl.carousel.min.css'|theme }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- CSSs -->
+    <link href="{{ 'assets/css/output.css'|theme }}" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <!-- {% partial 'site/header' %} -->
+
+    <!-- Content -->
+    <main>
+        {% page %}
+    </main> 
+
+    <!-- Footer -->
+    <!-- {% partial 'site/footer' %} -->
+
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- Owl Carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+    
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ 'assets/js/app.js'|theme }}"></script>
+    <script src="{{ 'assets/js/kalkulatorShipping.js'|theme }}"></script>
+    <script src="{{ 'assets/js/tracking.js'|theme }}"></script>
+
+</body>
+</html>";s:5:"mtime";i:1668631906;s:6:"markup";s:2153:"<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fourcargo - {{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <meta name="author" content="Fourcargo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Fourcargo">
+    <!-- <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}"> -->
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="{{ 'assets/css/owl.theme.default.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/owl.carousel.min.css'|theme }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- CSSs -->
+    <link href="{{ 'assets/css/output.css'|theme }}" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <!-- {% partial 'site/header' %} -->
+
+    <!-- Content -->
+    <main>
+        {% page %}
+    </main> 
+
+    <!-- Footer -->
+    <!-- {% partial 'site/footer' %} -->
+
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- Owl Carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+    
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ 'assets/js/app.js'|theme }}"></script>
+    <script src="{{ 'assets/js/kalkulatorShipping.js'|theme }}"></script>
+    <script src="{{ 'assets/js/tracking.js'|theme }}"></script>
+
+</body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}

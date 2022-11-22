@@ -1,0 +1,100 @@
+<section>
+    <div class="md:container:md:mx-auto sm:px-16 p-8">
+        <div
+            class="service w-full sm:flex justify-center flex-wrap grid grid-cols-2 lg:translate-y-16 sm:translate-y-11 sm:mt-0 mt-10 text-center">
+                <a class="service-box {% if this.page.id == 'our-service-laut-lcl' %} bg-orange1 {% endif %}"
+                    href="{{ 'our-service-laut-lcl' }}">
+                    {% if this.page.id == 'our-service-laut-lcl' %}
+                        <img src="{{ 'assets/image/Our Service/icon/via laut lcl white.png'|theme }}" alt="Gambar {{service1}}" />
+                        <h5 class="text-white">{{ service1 }}</h5>
+                        {% else %}
+                        <img src="{{ url }}{{ service1img|media }}" alt="Gambar {{service1}}" />
+                        <h5>{{ service1 }}</h5>
+                    {% endif %}
+                </a>
+                <a class="service-box {% if this.page.id == 'our-service-laut-fcl' %} bg-orange1 {% endif %}"
+                    href="{{ 'our-service-laut-fcl' }}">
+                    {% if this.page.id == 'our-service-laut-fcl' %}
+                        <img src="{{ 'assets/image/Our Service/icon/via laut fcl white.png'|theme }}" alt="Gambar {{service2}}" />
+                        <h5 class="text-white">{{ service2 }}</h5>
+                        {% else %}
+                        <img src="{{ url }}{{ service2img|media }}" alt="Gambar {{service2}}" />
+                        <h5>{{ service2 }}</h5>
+                    {% endif %}
+                </a>
+                <a class="service-box {% if this.page.id == 'our-service-air' %} bg-orange1 {% endif %}"
+                    href="{{ 'our-service-air' }}">
+                    {% if this.page.id == 'our-service-air' %}
+                        <img src="{{ 'assets/image/Our Service/icon/via udara white.png'|theme }}" alt="Gambar {{service3}}" />
+                        <h5 class="text-white">{{ service3 }}</h5>
+                        {% else %}
+                        <img src="{{ url }}{{ service3img|media }}" alt="Gambar {{service3}}" />
+                        <h5>{{ service3 }}</h5>
+                    {% endif %}
+                </a>
+                <a class="service-box {% if this.page.id == 'our-service-jasa-titip-beli' %} bg-orange1 {% endif %}"
+                    href="{{ 'our-service-jasa-titip-beli' }}">
+                    {% if this.page.id == 'our-service-jasa-titip-beli' %}
+                        <img src="{{ 'assets/image/Our Service/icon/jasa titip beli white.png'|theme }}" alt="Gambar {{service4}}" />
+                        <h5 class="text-white">{{ service4 }}</h5>
+                        {% else %}
+                        <img src="{{ url }}{{ service4img|media }}" alt="Gambar {{service4}}" />
+                        <h5>{{ service4 }}</h5>
+                    {% endif %}
+                </a>
+                <a class="service-box {% if this.page.id == 'our-service-jasa-titip-transfer' %} bg-orange1 {% endif %}"
+                    href="{{ 'our-service-jasa-titip-transfer' }}">
+                    {% if this.page.id == 'our-service-jasa-titip-transfer' %}
+                        <img src="{{ 'assets/image/Our Service/icon/jasa titp transfer white.png'|theme }}" alt="Gambar {{service5}}" />
+                        <h5 class="text-white">{{ service5 }}</h5>
+                        {% else %}
+                        <img src="{{ url }}{{ service5img|media }}" alt="Gambar {{service5}}" />
+                        <h5>{{ service5 }}</h5>
+                    {% endif %}
+                </a>
+        </div>
+    </div>
+</section>
+
+<!-- 
+<a class="service-box {% if this.page.id == 'our-service-laut-fcl' %} bg-orange1 {% endif %}"
+    href="{{ 'our-service-laut-fcl' }}">
+    {% if this.page.id == 'our-service-laut-fcl' %}
+    <img src="{{ 'assets/image/Our Service/icon/via laut fcl white.png'|theme }}" alt="Gambar Via Laut FCL" />
+    <h5 class="text-white">VIA LAUT LCL</h5>
+    {% else %}
+    <img src="{{ 'assets/image/Our Service/icon/via laut fcl.png'|theme }}" alt="Gambar Via Laut FCL" />
+    <h5>VIA LAUT FCL</h5>
+    {% endif %}
+</a>
+<a class="service-box {% if this.page.id == 'our-service-air' %} bg-orange1 {% endif %}"
+    href="{{ 'our-service-air' }}">
+    {% if this.page.id == 'our-service-air' %}
+    <img src="{{ 'assets/image/Our Service/icon/via udara white.png'|theme }}" alt="Gambar Via Udara" />
+    <h5 class="text-white">VIA UDARA</h5>
+    {% else %}
+    <img src="{{ 'assets/image/Our Service/icon/via udara.png'|theme }}" alt="Gambar Via Laut FCL" />
+    <h5>VIA UDARA</h5>
+    {% endif %}
+</a>
+<a class="service-box {% if this.page.id == 'our-service-jasa-titip-beli' %} bg-orange1 {% endif %}"
+    href="{{ 'our-service-jasa-titip-beli' }}">
+    {% if this.page.id == 'our-service-jasa-titip-beli' %}
+    <img src="{{ 'assets/image/Our Service/icon/jasa titip beli white.png'|theme }}" alt="Gambar Via Udara" />
+    <h5 class="text-white">JASA TITIP BELI</h5>
+    {% else %}
+    <img src="{{ 'assets/image/Our Service/icon/jasa titip beli.png'|theme }}" alt="Gambar Jasa Titip Beli" />
+    <h5>JASA TITIP BELI</h5>
+    {% endif %}
+</a>
+<a class="service-box {% if this.page.id == 'our-service-jasa-titip-transfer' %} bg-orange1 {% endif %}"
+    href="{{ 'our-service-jasa-titip-transfer' }}">
+    {% if this.page.id == 'our-service-jasa-titip-transfer' %}
+    <img src="{{ 'assets/image/Our Service/icon/jasa titip beli white.png'|theme }}" alt="Gambar Via Udara" />
+    <h5 class="text-white">JASA TITIP TRANSFER</h5>
+    {% else %}
+    <img src="{{ 'assets/image/Our Service/icon/jasa titip transfer.png'|theme }}" alt="Gambar Jasa Titip Transfer" />
+    <h5>JASA TITIP TRANSFER</h5>
+    {% endif %}
+
+</a> -->

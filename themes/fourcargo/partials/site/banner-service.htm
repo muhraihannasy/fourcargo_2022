@@ -1,0 +1,14 @@
+
+
+<section
+    class="bg-left h-97 bg-cover bg-no-repeat relative before:block before:absolute before:right-0 before:bg-linear-orange before:w-full xl:before:w-2/4 lg:before:w-3/5 md:before:w-3/4 md:before:opacity-100 before:opacity-80 before:h-full" style="background-image: url({{ url }}{{ bg|media }});">
+    <div class="md:container md:mx-auto w-full h-full flex flex-col items-center pt-10">
+        <div class="w-full flex justify-center lg:justify-end md:justify-end mb-36 z-10 lg:mx-7 pt-20">
+            <div class="content mt-20 lg:mr-16 md:mr-10 md:text-left text-center -translate-y-3">
+                <h1 class="sm:text-6xl text-5xl leading-tight text-white font-semibold {% if this.page.id == 'about' %} md:-translate-x-28 {% endif %}">
+                    {{ title }}
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>

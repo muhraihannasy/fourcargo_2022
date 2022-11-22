@@ -1,0 +1,20 @@
+<div class="contact-input">
+    <form action="{{ this.page.BASEURL }}handleContact" method="POST" class="flex flex-col justify-center items-center">
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-6 w-full">
+            <input type="text" placeholder="{{ this.page.section2contact_input_placeholder_name }}" name="nama"
+                class="border transition duration-300 ease-in-out focus-within:border-orange1 outline-none py-3 px-4 ">
+            <input type="email" placeholder="{{ this.page.section2contact_input_placeholder_email }}" name="email"
+                class="border transition duration-300 ease-in-out focus-within:border-orange1 outline-none py-3 px-4 ">
+            <input type="text" placeholder="{{ this.page.section2contact_input_placeholder_phone }}" name="phone"
+                class="border transition duration-300 ease-in-out focus-within:border-orange1 outline-none py-3 px-4 ">
+        </div>
+        <textarea 
+            name="message" id="" cols="30" rows="10"
+            class="border transition duration-300 ease-in-out focus-within:border-orange1 outline-none w-full py-3 px-4 mt-8"
+            placeholder="{{ this.page.section2contact_input_placeholder_message }}"></textarea>
+        <button type="submit" name="submit" class="bg-orange2 text-lg font-extrabold text-white px-10 py-4 mt-6">
+            {{ this.page.section2contact_text_button }}
+        </button>
+    </form>
+</div>
+

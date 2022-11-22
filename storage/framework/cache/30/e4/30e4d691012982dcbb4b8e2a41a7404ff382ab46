@@ -1,0 +1,451 @@
+1668715129a:1:{s:24:"our-service-laut-lcl.htm";a:55:{s:8:"fileName";s:24:"our-service-laut-lcl.htm";s:7:"content";s:15564:"title = "Our Service - Laut LCL"
+url = "/our-service-laut-lcl"
+layout = "default"
+is_hidden = 0
+section1lcl_title = "Our Service"
+section1lcl_background = "/bg.jpg"
+section2lcl_title = "VIA LAUT LCL"
+section2lcl_description = "<p>LCL atau Less Container Load adalah pengiriman impor barang melalui jalur laut dengan jumlah QTY kecil / sedang minimal 0.1 cbm dengan durasi pengiriman 25 - 30 Hari Kurangi biaya bisnis impor kalian dengan jasa impor LCL kami yang menawarkan harga kompetitif</p>"
+section2lcl_image = "/lcl.jpg"
+section2lcl_service1 = "VIA LAUT LCL"
+section2lcl_service1_image = "/via laut lcl.png"
+section2lcl_service2 = "VIA LAUT FCL"
+section2lcl_service2_image = "/via laut fcl.png"
+section2lcl_service3 = "VIA UDARA"
+section2lcl_service3_image = "/via udara.png"
+section2lcl_service4 = "JASA TITIP BELI"
+section2lcl_service4_image = "/jasa titip beli.png"
+section2lcl_service5 = "JASA TITIP TRANSFER"
+section2lcl_service5_image = "/jasa titip transfer.png"
+navbarlcl_logo = "/logo.png"
+navbarlcl_link1 = "Home"
+navbarlcl_link2 = "About"
+navbarlcl_link3 = "Service"
+navbarlcl_link4 = "Tracking"
+navbarlcl_link5 = "Jasa Belanja"
+navbarlcl_link6 = "Artikel"
+navbarlcl_link7 = "Contact"
+footerlcl_logo = "/logo.png"
+footerlcl_title = "CV. Dermaga Mulia Abadi"
+footerlcl_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerlcl_email = "<p>customercare@fourcargo.id</p>"
+footerlcl_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerlcl_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerlcl_background = "/footer.jpg"
+section3lcl_title = "Hitung Biaya Pengiriman"
+section3lcl_subtitle = "Shipping dari Negara?"
+section3lcl_title_shipping = "Jalur Pengiriman"
+section3lcl_title_category_product = "Kategori Barang"
+section3lcl_title_weight = "Berat (Kg)"
+section3lcl_input_volume = "Volume (m3)"
+section3lcl_input_long = "Panjang (cm)"
+section3lcl_input_wide = "Lebar (cm)"
+section3lcl_input_tall = "Tinggi (cm)"
+section3lcl_description_terms = "<p>* Minimal pengiriman 0.1cbm/ resi terima gudang/ supplier.&nbsp;</p>
+
+<p>* Harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm,&nbsp;</p>
+
+<p>&nbsp; &nbsp;warehousing, pengiriman, customs clearance, pajak &amp; bea masuk bersih sampai di Jakarta.</p>"
+section3lcl_text_button = "CEK HARGA"
+section3lcl_background = "/bg-truck.jpg"
+section3lcl_text_estimasi = "Estimasi Ongkir Sampai Jakarta :"
+section3lcl_text_estimasi_tiba = "Estimasi tiba 4-5 Minggu"
+section4lcl_title = "Kategori Barang"
+
+[viewBag]
+footersosmedlcl[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedlcl[0][link] = "https://id-id.facebook.com/"
+footersosmedlcl[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedlcl[1][link] = "https://www.instagram.com/?hl=id"
+categoryservicelcl[0][title] = "VIA LAUT LCL"
+categoryservicelcl[0][image_non_active] = "/via laut lcl.png"
+categoryservicelcl[0][image_active] = "/via laut lcl white.png"
+categoryservicelcl[0][link_page] = "our-service-laut-lcl"
+categoryservicelcl[1][title] = "VIA LAUT FCL"
+categoryservicelcl[1][image_non_active] = "/via laut fcl.png"
+categoryservicelcl[1][image_active] = "/via laut fcl white.png"
+categoryservicelcl[1][link_page] = "our-service-laut-fcl"
+categoryservicelcl[2][title] = "VIA UDARA"
+categoryservicelcl[2][image_non_active] = "/via udara.png"
+categoryservicelcl[2][image_active] = "/via udara white.png"
+categoryservicelcl[2][link_page] = "our-service-air"
+categoryservicelcl[3][title] = "JASA TITIP BELI"
+categoryservicelcl[3][image_non_active] = "/jasa titip beli.png"
+categoryservicelcl[3][image_active] = "/jasa titip beli white.png"
+categoryservicelcl[3][link_page] = "our-service-jasa-titip-beli"
+categoryservicelcl[4][title] = "JASA TITIP TRANSFER"
+categoryservicelcl[4][image_non_active] = "/jasa titip transfer.png"
+categoryservicelcl[4][image_active] = "/jasa titp transfer white.png"
+categoryservicelcl[4][link_page] = "our-service-jasa-titip-transfer"
+categoryproductlcl[0][image] = "/Tas_Ikat-removebg-preview.png"
+categoryproductlcl[0][title] = "Tas, Ikat Pinggang"
+categoryproductlcl[0][description] = "<p style=\"text-align: center;\">Tas Fashion Pria, Tas Fashion Wanita, Koper Ransel, Tas Branded Ikat Pinggang, Tas Gantung, dll</p>"
+categoryproductlcl[1][image] = "/kacamata-removebg-preview.png"
+categoryproductlcl[1][title] = "Barang Umum"
+categoryproductlcl[1][description] = "<p style=\"text-align: center;\">Barang berbahan Plastic, Tumbler, Kaca Mata, Headshet Aksesoris, Sparepart Peralatan Dapur, dll</p>"
+categoryproductlcl[2][image] = "/Speake-removebg-preview.png"
+categoryproductlcl[2][title] = "Barang Lartas"
+categoryproductlcl[2][description] = "<p style=\"text-align: center;\">Mainan, Alat Service Dongle, WF Rec, LCD, BT Speaker Mic BT, SNI</p>"
+categoryproductlcl[3][image] = "/celana-removebg-preview.png"
+categoryproductlcl[3][title] = "Semi Garment"
+categoryproductlcl[3][description] = "<p style=\"text-align: center;\">Underwear, Bra, Topi, Scraf, Sapu Tangan, Sarung Tangan, dll</p>"
+categoryproductlcl[4][image] = "/container-removebg-preview.png"
+categoryproductlcl[4][title] = "Mesin, Barang Berat"
+categoryproductlcl[4][description] = "<p style=\"text-align: center;\">Alat Berat, Mesin, Sepatu, Kayu, Keramik Sepeda, Kertas dll</p>"
+categoryproductlcl[5][image] = "/bubuk-removebg-preview.png"
+categoryproductlcl[5][title] = "Hot Item"
+categoryproductlcl[5][description] = "<p style=\"text-align: center;\">Kosmetik, Makanan, Alat Kesehatan, Bahan Kimia, Obat-obatan dll</p>"
+categoryproductlcl[6][image] = "/baju-removebg-preview.png"
+categoryproductlcl[6][title] = "Garment"
+categoryproductlcl[6][description] = "<p style=\"text-align: center;\">Hasil Kain Jadi Berbentuk Baju, Celana, Kemeja, Jaket, dll</p>"
+categoryproductlcl[7][image] = "/benang-removebg-preview.png"
+categoryproductlcl[7][title] = "Textile"
+categoryproductlcl[7][description] = "<p style=\"text-align: center;\">Mentahan Bahan Kain Gulungan</p>"
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarlcl_link1 link2=this.page.navbarlcl_link2
+link3=this.page.navbarlcl_link3
+link4=this.page.navbarlcl_link4 link5=this.page.navbarlcl_link5 link6=this.page.navbarlcl_link6
+link7=this.page.navbarlcl_link7
+logo=this.page.navbarlcl_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1lcl_title bg=this.page.section1lcl_background url=BASEURL %}
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2lcl_service1  service1img=this.page.section2lcl_service1_image
+  service2=this.page.section2lcl_service2 service2img=this.page.section2lcl_service2_image
+  service3=this.page.section2lcl_service3 service3img=this.page.section2lcl_service3_image
+  service4=this.page.section2lcl_service4 service4img=this.page.section2lcl_service4_image 
+  service5=this.page.section2lcl_service5 service5img=this.page.section2lcl_service5_image    
+%}
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{ this.page.section2lcl_image |media }}" alt="" class="object-cover" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+                {{ this.page.section2lcl_title }}
+            </h2>
+            <div class="text-lg text-zinc-500 lg:pr-32">
+                {{ this.page.section2lcl_description|raw }}
+                <!-- LCL atau Less Container Load adalah pengiriman impor barang
+                melalui jalur laut dengan jumlah QTY kecil / sedang minimal 0.1
+                cbm dengan durasi pengiriman 25 - 30 Hari Kurangi biaya bisnis
+                impor kalian dengan jasa impor LCL kami yang menawarkan harga
+                kompetitif -->
+                </div>
+        </div>
+    </div>
+</section>
+
+<section
+    class="mt-14 overflow-hidden relative bg-cover bg-center bg-no-repeat after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-orange1 after:opacity-90 z-20 after:z-[-1]" style="background-image: url({{ BASEURL }}{{ this.page.section3lcl_background|media }})">
+    <div class="md:container md:mx-auto">
+        <form action="" method="POST">
+            <div class="content grid lg:grid-cols-2 grid-cols-1 sm:p-16 p-8">
+              <div>
+                <div class="font-bold text-white mb-10">
+                  <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium">{{ this.page.section3lcl_title }}</h1>
+                  <h2 class="sm:text-3xl text-2xl p-medium">{{ this.page.section3lcl_subtitle }}</h2>
+                </div>
+    
+                <div class="p-medium text-white">
+                  <label class="font-bold">{{  this.page.section3lcl_title_shipping }}</label>
+                  <div class="flex mt-2 gap-6 jalur-pengiriman">
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_laut" value="via laut" />
+                        <label for="via_laut">Via Laut</label>
+                      </div>
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_udara" />
+                        <label for="via_udara">Via Udara</label>
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+                  <div class="input-group">
+                    <label for="kategori">{{ this.page.section3lcl_title_category_product }}</label>
+                    <select id="kategori">
+                      
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="berat">{{ this.page.section3lcl_title_weight }}</label>
+                    <input type="text" name="berat" id="berat"  />
+                  </div>
+                  <div class="input-group">
+                    <label for="volume">{{ this.page.section3lcl_input_volume }}</label>
+                    <input type="text" name="volume" id="volume" />
+                  </div>
+                  <div class="input-group">
+                    <label for="panjang">{{  this.page.section3lcl_input_long }}</label>
+                    <input type="text" name="panjang" id="panjang" />
+                  </div>
+                  <div class="input-group">
+                    <label for="lebar">{{ this.page.section3lcl_input_wide }}</label>
+                    <input type="text" name="lebar" id="lebar" />
+                  </div>
+                  <div class="input-group">
+                    <label for="tinggi">{{ this.page.section3lcl_input_tall }}</label>
+                    <input type="text" name="tinggi" id="tinggi" />
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start items-center lg:mt-0 mt-10">
+                
+                <div class="grid grid-cols-6 gap-4">
+                  <div id="china" class="btn-country">
+                    <h5>CN</h5>
+                    <img src="{{ 'assets/image/Country/china.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="thailand" class="btn-country">
+                    <h5>TH</h5>
+                    <img src="{{ 'assets/image/Country/thailand.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="taiwan" class="btn-country">
+                    <h5>TW</h5>
+                    <img src="{{ 'assets/image/Country/taiwan.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="korea" class="btn-country">
+                    <h5>KR</h5>
+                    <img src="{{ 'assets/image/Country/korea.png'|theme }}" alt="" class="w-10 ">
+                  </div>
+                  <div id="singapura"  class="btn-country">
+                    <h5>SG</h5>
+                    <img src="{{ 'assets/image/Country/singapura.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="hongkong"  class="btn-country">
+                    <h5>HK</h5>
+                    <img src="{{ 'assets/image/Country/hongkong.png'|theme }}" alt="" class="w-10">
+                  </div>
+                </div>
+                <div class="card card-estimasi bg-linear-text-orange pt-2 pb-10 px-3 rounded-3xl w-fit font-semibold text-white mt-10">
+                  <!-- {{ this.page.section5_description_estimasi|raw }} -->
+                  <h4>{{ this.page.section3lcl_text_estimasi }}</h4>
+                  <h3 class="mt-4" id="estimasi-harga">Rp 0,00</h3>
+                  <h5>{{ this.page.section3lcl_text_estimasi_tiba }}</h5>
+                </div>
+                <button
+                  class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold" id="submit">
+                  {{ this.page.section3lcl_text_button }}
+                </button>
+              </div>
+            </div>
+            <div class="description text-white font-semibold lg:-translate-y-9 sm:px-20 px-8 sm:pb-16 pb-8">
+              {{ this.page.section3lcl_description_terms|raw }}
+            </div>
+          </form>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center px-5 bg-white shadow-md p-2 w-fit">
+           {{ this.page.section4lcl_title }}
+        </h1>
+        <div class="kategori-barang grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10">
+            {% for product in viewBag.categoryproductlcl %}
+                <div class="kategori-item overflow-hidden flex flex-col shadow-md justify-between relative before:absolute before:top-0 before:-right-10 before:bg-category-product before:w-20 before:h-full before:z-[-1] lg:w-64 w-full px-6 pt-2 mb-5">
+                    <img src="{{ BASEURL }}{{ product.image|media }}" alt="" />
+                    <div class="content h-56 z-10">
+                      <h1 class="text-center font-bold text-orange2 mb-2 mt-4 text-xl">{{ product.title }}</h1>
+                      {{ product.description|raw }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerlcl_title address=this.page.footerlcl_address
+email=this.page.footerlcl_email
+phone=this.page.footerlcl_phone copyright=this.page.footerlcl_copyright
+background=this.page.footerlcl_background
+logo=this.page.footerlcl_logo link1=this.page.navbarlcl_link1  link2=this.page.navbarlcl_link2
+link3=this.page.navbarjasfer_link3
+link4=this.page.navbarlcl_link4
+link5=this.page.navbarlcl_link5 link6=this.page.navbarlcl_link6 link7=this.page.navbarlcl_link7 social_media=viewBag.footersosmedlcl url=BASEURL %}";s:5:"mtime";i:1655263058;s:6:"markup";s:9370:"{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarlcl_link1 link2=this.page.navbarlcl_link2
+link3=this.page.navbarlcl_link3
+link4=this.page.navbarlcl_link4 link5=this.page.navbarlcl_link5 link6=this.page.navbarlcl_link6
+link7=this.page.navbarlcl_link7
+logo=this.page.navbarlcl_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1lcl_title bg=this.page.section1lcl_background url=BASEURL %}
+{% partial 'site/service-category' url=BASEURL 
+  service1=this.page.section2lcl_service1  service1img=this.page.section2lcl_service1_image
+  service2=this.page.section2lcl_service2 service2img=this.page.section2lcl_service2_image
+  service3=this.page.section2lcl_service3 service3img=this.page.section2lcl_service3_image
+  service4=this.page.section2lcl_service4 service4img=this.page.section2lcl_service4_image 
+  service5=this.page.section2lcl_service5 service5img=this.page.section2lcl_service5_image    
+%}
+<section class="mt-20">
+    <div class="md:container:md:mx-auto sm:px-16 p-8 grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="flex justify-end pr-9">
+            <div class="md:w-96 sm:w-full mb-10 md:mb-0 overflow-hidden">
+                <img src="{{ BASEURL }}{{ this.page.section2lcl_image |media }}" alt="" class="object-cover" />
+            </div>
+        </div>
+        <div class="font-bold font-poppins">
+            <h2 class="text-3xl bg-orange1 w-fit py-2 px-8 text-white mb-5">
+                {{ this.page.section2lcl_title }}
+            </h2>
+            <div class="text-lg text-zinc-500 lg:pr-32">
+                {{ this.page.section2lcl_description|raw }}
+                <!-- LCL atau Less Container Load adalah pengiriman impor barang
+                melalui jalur laut dengan jumlah QTY kecil / sedang minimal 0.1
+                cbm dengan durasi pengiriman 25 - 30 Hari Kurangi biaya bisnis
+                impor kalian dengan jasa impor LCL kami yang menawarkan harga
+                kompetitif -->
+                </div>
+        </div>
+    </div>
+</section>
+
+<section
+    class="mt-14 overflow-hidden relative bg-cover bg-center bg-no-repeat after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-orange1 after:opacity-90 z-20 after:z-[-1]" style="background-image: url({{ BASEURL }}{{ this.page.section3lcl_background|media }})">
+    <div class="md:container md:mx-auto">
+        <form action="" method="POST">
+            <div class="content grid lg:grid-cols-2 grid-cols-1 sm:p-16 p-8">
+              <div>
+                <div class="font-bold text-white mb-10">
+                  <h1 class="w-fit bg-linear-text-orange sm:text-4xl text-3xl p-medium">{{ this.page.section3lcl_title }}</h1>
+                  <h2 class="sm:text-3xl text-2xl p-medium">{{ this.page.section3lcl_subtitle }}</h2>
+                </div>
+    
+                <div class="p-medium text-white">
+                  <label class="font-bold">{{  this.page.section3lcl_title_shipping }}</label>
+                  <div class="flex mt-2 gap-6 jalur-pengiriman">
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_laut" value="via laut" />
+                        <label for="via_laut">Via Laut</label>
+                      </div>
+                      <div class="flex gap-2 items-center">
+                        <input type="radio" name="pengiriman" id="via_udara" />
+                        <label for="via_udara">Via Udara</label>
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+                  <div class="input-group">
+                    <label for="kategori">{{ this.page.section3lcl_title_category_product }}</label>
+                    <select id="kategori">
+                      
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="berat">{{ this.page.section3lcl_title_weight }}</label>
+                    <input type="text" name="berat" id="berat"  />
+                  </div>
+                  <div class="input-group">
+                    <label for="volume">{{ this.page.section3lcl_input_volume }}</label>
+                    <input type="text" name="volume" id="volume" />
+                  </div>
+                  <div class="input-group">
+                    <label for="panjang">{{  this.page.section3lcl_input_long }}</label>
+                    <input type="text" name="panjang" id="panjang" />
+                  </div>
+                  <div class="input-group">
+                    <label for="lebar">{{ this.page.section3lcl_input_wide }}</label>
+                    <input type="text" name="lebar" id="lebar" />
+                  </div>
+                  <div class="input-group">
+                    <label for="tinggi">{{ this.page.section3lcl_input_tall }}</label>
+                    <input type="text" name="tinggi" id="tinggi" />
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start items-center lg:mt-0 mt-10">
+                
+                <div class="grid grid-cols-6 gap-4">
+                  <div id="china" class="btn-country">
+                    <h5>CN</h5>
+                    <img src="{{ 'assets/image/Country/china.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="thailand" class="btn-country">
+                    <h5>TH</h5>
+                    <img src="{{ 'assets/image/Country/thailand.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="taiwan" class="btn-country">
+                    <h5>TW</h5>
+                    <img src="{{ 'assets/image/Country/taiwan.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="korea" class="btn-country">
+                    <h5>KR</h5>
+                    <img src="{{ 'assets/image/Country/korea.png'|theme }}" alt="" class="w-10 ">
+                  </div>
+                  <div id="singapura"  class="btn-country">
+                    <h5>SG</h5>
+                    <img src="{{ 'assets/image/Country/singapura.png'|theme }}" alt="" class="w-10">
+                  </div>
+                  <div id="hongkong"  class="btn-country">
+                    <h5>HK</h5>
+                    <img src="{{ 'assets/image/Country/hongkong.png'|theme }}" alt="" class="w-10">
+                  </div>
+                </div>
+                <div class="card card-estimasi bg-linear-text-orange pt-2 pb-10 px-3 rounded-3xl w-fit font-semibold text-white mt-10">
+                  <!-- {{ this.page.section5_description_estimasi|raw }} -->
+                  <h4>{{ this.page.section3lcl_text_estimasi }}</h4>
+                  <h3 class="mt-4" id="estimasi-harga">Rp 0,00</h3>
+                  <h5>{{ this.page.section3lcl_text_estimasi_tiba }}</h5>
+                </div>
+                <button
+                  class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold" id="submit">
+                  {{ this.page.section3lcl_text_button }}
+                </button>
+              </div>
+            </div>
+            <div class="description text-white font-semibold lg:-translate-y-9 sm:px-20 px-8 sm:pb-16 pb-8">
+              {{ this.page.section3lcl_description_terms|raw }}
+            </div>
+          </form>
+    </div>
+</section>
+
+<section class="mt-6">
+    <div class="md:container: md:mx-auto p-8 flex flex-col items-center">
+        <h1 class="text-orange1 font-bold text-3xl text-center px-5 bg-white shadow-md p-2 w-fit">
+           {{ this.page.section4lcl_title }}
+        </h1>
+        <div class="kategori-barang grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10">
+            {% for product in viewBag.categoryproductlcl %}
+                <div class="kategori-item overflow-hidden flex flex-col shadow-md justify-between relative before:absolute before:top-0 before:-right-10 before:bg-category-product before:w-20 before:h-full before:z-[-1] lg:w-64 w-full px-6 pt-2 mb-5">
+                    <img src="{{ BASEURL }}{{ product.image|media }}" alt="" />
+                    <div class="content h-56 z-10">
+                      <h1 class="text-center font-bold text-orange2 mb-2 mt-4 text-xl">{{ product.title }}</h1>
+                      {{ product.description|raw }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% partial 'site/footer' title=this.page.footerlcl_title address=this.page.footerlcl_address
+email=this.page.footerlcl_email
+phone=this.page.footerlcl_phone copyright=this.page.footerlcl_copyright
+background=this.page.footerlcl_background
+logo=this.page.footerlcl_logo link1=this.page.navbarlcl_link1  link2=this.page.navbarlcl_link2
+link3=this.page.navbarjasfer_link3
+link4=this.page.navbarlcl_link4
+link5=this.page.navbarlcl_link5 link6=this.page.navbarlcl_link6 link7=this.page.navbarlcl_link7 social_media=viewBag.footersosmedlcl url=BASEURL %}";s:4:"code";N;s:5:"title";s:22:"Our Service - Laut LCL";s:3:"url";s:21:"/our-service-laut-lcl";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"section1lcl_title";s:11:"Our Service";s:22:"section1lcl_background";s:7:"/bg.jpg";s:17:"section2lcl_title";s:12:"VIA LAUT LCL";s:23:"section2lcl_description";s:266:"<p>LCL atau Less Container Load adalah pengiriman impor barang melalui jalur laut dengan jumlah QTY kecil / sedang minimal 0.1 cbm dengan durasi pengiriman 25 - 30 Hari Kurangi biaya bisnis impor kalian dengan jasa impor LCL kami yang menawarkan harga kompetitif</p>";s:17:"section2lcl_image";s:8:"/lcl.jpg";s:20:"section2lcl_service1";s:12:"VIA LAUT LCL";s:26:"section2lcl_service1_image";s:17:"/via laut lcl.png";s:20:"section2lcl_service2";s:12:"VIA LAUT FCL";s:26:"section2lcl_service2_image";s:17:"/via laut fcl.png";s:20:"section2lcl_service3";s:9:"VIA UDARA";s:26:"section2lcl_service3_image";s:14:"/via udara.png";s:20:"section2lcl_service4";s:15:"JASA TITIP BELI";s:26:"section2lcl_service4_image";s:20:"/jasa titip beli.png";s:20:"section2lcl_service5";s:19:"JASA TITIP TRANSFER";s:26:"section2lcl_service5_image";s:24:"/jasa titip transfer.png";s:14:"navbarlcl_logo";s:9:"/logo.png";s:15:"navbarlcl_link1";s:4:"Home";s:15:"navbarlcl_link2";s:5:"About";s:15:"navbarlcl_link3";s:7:"Service";s:15:"navbarlcl_link4";s:8:"Tracking";s:15:"navbarlcl_link5";s:12:"Jasa Belanja";s:15:"navbarlcl_link6";s:7:"Artikel";s:15:"navbarlcl_link7";s:7:"Contact";s:14:"footerlcl_logo";s:9:"/logo.png";s:15:"footerlcl_title";s:23:"CV. Dermaga Mulia Abadi";s:17:"footerlcl_address";s:126:"<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>";s:15:"footerlcl_email";s:32:"<p>customercare@fourcargo.id</p>";s:15:"footerlcl_phone";s:50:"<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>";s:19:"footerlcl_copyright";s:62:"<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>";s:20:"footerlcl_background";s:11:"/footer.jpg";s:17:"section3lcl_title";s:23:"Hitung Biaya Pengiriman";s:20:"section3lcl_subtitle";s:21:"Shipping dari Negara?";s:26:"section3lcl_title_shipping";s:16:"Jalur Pengiriman";s:34:"section3lcl_title_category_product";s:15:"Kategori Barang";s:24:"section3lcl_title_weight";s:10:"Berat (Kg)";s:24:"section3lcl_input_volume";s:11:"Volume (m3)";s:22:"section3lcl_input_long";s:12:"Panjang (cm)";s:22:"section3lcl_input_wide";s:10:"Lebar (cm)";s:22:"section3lcl_input_tall";s:11:"Tinggi (cm)";s:29:"section3lcl_description_terms";s:274:"<p>* Minimal pengiriman 0.1cbm/ resi terima gudang/ supplier.&nbsp;</p>
+
+<p>* Harga (All in) sudah termasuk Asuransi kehilangan maximal 20jt / cbm,&nbsp;</p>
+
+<p>&nbsp; &nbsp;warehousing, pengiriman, customs clearance, pajak &amp; bea masuk bersih sampai di Jakarta.</p>";s:23:"section3lcl_text_button";s:9:"CEK HARGA";s:22:"section3lcl_background";s:13:"/bg-truck.jpg";s:25:"section3lcl_text_estimasi";s:32:"Estimasi Ongkir Sampai Jakarta :";s:30:"section3lcl_text_estimasi_tiba";s:24:"Estimasi tiba 4-5 Minggu";s:17:"section4lcl_title";s:15:"Kategori Barang";s:7:"viewBag";a:3:{s:15:"footersosmedlcl";a:2:{i:0;a:2:{s:4:"icon";s:44:"/uploaded-files/akar-icons_facebook-fill.png";s:4:"link";s:27:"https://id-id.facebook.com/";}i:1;a:2:{s:4:"icon";s:55:"/uploaded-files/entypo-social_instagram-with-circle.png";s:4:"link";s:32:"https://www.instagram.com/?hl=id";}}s:18:"categoryservicelcl";a:5:{i:0;a:4:{s:5:"title";s:12:"VIA LAUT LCL";s:16:"image_non_active";s:17:"/via laut lcl.png";s:12:"image_active";s:23:"/via laut lcl white.png";s:9:"link_page";s:20:"our-service-laut-lcl";}i:1;a:4:{s:5:"title";s:12:"VIA LAUT FCL";s:16:"image_non_active";s:17:"/via laut fcl.png";s:12:"image_active";s:23:"/via laut fcl white.png";s:9:"link_page";s:20:"our-service-laut-fcl";}i:2;a:4:{s:5:"title";s:9:"VIA UDARA";s:16:"image_non_active";s:14:"/via udara.png";s:12:"image_active";s:20:"/via udara white.png";s:9:"link_page";s:15:"our-service-air";}i:3;a:4:{s:5:"title";s:15:"JASA TITIP BELI";s:16:"image_non_active";s:20:"/jasa titip beli.png";s:12:"image_active";s:26:"/jasa titip beli white.png";s:9:"link_page";s:27:"our-service-jasa-titip-beli";}i:4;a:4:{s:5:"title";s:19:"JASA TITIP TRANSFER";s:16:"image_non_active";s:24:"/jasa titip transfer.png";s:12:"image_active";s:29:"/jasa titp transfer white.png";s:9:"link_page";s:31:"our-service-jasa-titip-transfer";}}s:18:"categoryproductlcl";a:8:{i:0;a:3:{s:5:"image";s:30:"/Tas_Ikat-removebg-preview.png";s:5:"title";s:18:"Tas, Ikat Pinggang";s:11:"description";s:130:"<p style="text-align: center;">Tas Fashion Pria, Tas Fashion Wanita, Koper Ransel, Tas Branded Ikat Pinggang, Tas Gantung, dll</p>";}i:1;a:3:{s:5:"image";s:30:"/kacamata-removebg-preview.png";s:5:"title";s:11:"Barang Umum";s:11:"description";s:130:"<p style="text-align: center;">Barang berbahan Plastic, Tumbler, Kaca Mata, Headshet Aksesoris, Sparepart Peralatan Dapur, dll</p>";}i:2;a:3:{s:5:"image";s:28:"/Speake-removebg-preview.png";s:5:"title";s:13:"Barang Lartas";s:11:"description";s:99:"<p style="text-align: center;">Mainan, Alat Service Dongle, WF Rec, LCD, BT Speaker Mic BT, SNI</p>";}i:3;a:3:{s:5:"image";s:28:"/celana-removebg-preview.png";s:5:"title";s:12:"Semi Garment";s:11:"description";s:95:"<p style="text-align: center;">Underwear, Bra, Topi, Scraf, Sapu Tangan, Sarung Tangan, dll</p>";}i:4;a:3:{s:5:"image";s:31:"/container-removebg-preview.png";s:5:"title";s:19:"Mesin, Barang Berat";s:11:"description";s:94:"<p style="text-align: center;">Alat Berat, Mesin, Sepatu, Kayu, Keramik Sepeda, Kertas dll</p>";}i:5;a:3:{s:5:"image";s:27:"/bubuk-removebg-preview.png";s:5:"title";s:8:"Hot Item";s:11:"description";s:98:"<p style="text-align: center;">Kosmetik, Makanan, Alat Kesehatan, Bahan Kimia, Obat-obatan dll</p>";}i:6;a:3:{s:5:"image";s:26:"/baju-removebg-preview.png";s:5:"title";s:7:"Garment";s:11:"description";s:93:"<p style="text-align: center;">Hasil Kain Jadi Berbentuk Baju, Celana, Kemeja, Jaket, dll</p>";}i:7;a:3:{s:5:"image";s:28:"/benang-removebg-preview.png";s:5:"title";s:7:"Textile";s:11:"description";s:63:"<p style="text-align: center;">Mentahan Bahan Kain Gulungan</p>";}}}}}

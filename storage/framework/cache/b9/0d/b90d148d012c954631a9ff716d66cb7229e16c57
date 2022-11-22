@@ -1,0 +1,251 @@
+1668715128a:1:{s:11:"artikel.htm";a:32:{s:8:"fileName";s:11:"artikel.htm";s:7:"content";s:6755:"title = "Artikel"
+url = "/artikel"
+layout = "default"
+is_hidden = 0
+BASEURL = http://localhost:8080/fourcargo/
+section1artikel_title = "Artikel"
+section1artikel_background = "/bg.jpg"
+section2artikel_title = "Artikel"
+section2artikel_description = "<p>Informasi seputar pengiriman cargo jalur laut atau jalur udara, jasa pembelian barang import dan jasa transfer RMB.</p>"
+section2artikel_line_image = "/line2.png"
+navbarartikel_logo = "/logo.png"
+navbarartikel_link1 = "Home"
+navbarartikel_link2 = "About"
+navbarartikel_link3 = "Service"
+navbarartikel_link4 = "Tracking"
+navbarartikel_link5 = "Jasa Belanja"
+navbarartikel_link6 = "Artikel"
+navbarartikel_link7 = "Contact"
+footerartikel_logo = "/logo.png"
+footerartikel_title = "CV. Dermaga Mulia Abadi"
+footerartikel_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footerartikel_email = "<p>customercare@fourcargo.id</p>"
+footerartikel_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footerartikel_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footerartikel_background = "/footer.jpg"
+
+[viewBag]
+footersosmedartikel[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedartikel[0][link_sosmed] = ""
+footersosmedartikel[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedartikel[1][link_sosmed] = ""
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 12
+noPostsMessage = "No posts found"
+sortOrder = "published_at asc"
+categoryPage = "about"
+postPage = "artikel-post"
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+{% partial 'site/header' link1=this.page.navbarartikel_link1 link2=this.page.navbarartikel_link2
+link3=this.page.navbarartikel_link3
+link4=this.page.navbarartikel_link4 link5=this.page.navbarartikel_link5 link6=this.page.navbarartikel_link6
+link7=this.page.navbarartikel_link7
+logo=this.page.navbarartikel_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1artikel_title bg=this.page.section1artikel_background url=BASEURL %}
+
+
+<section class="mt-20">
+    <div class="container mx-auto">
+        <div class="title-tracking text-center mb-15 font-poppins p-8 flex flex-col items-center justify-center">
+            <h1
+                class="font-extrabold text-4xl text-center mb-12 text-blueOld flex items-center flex-col justify-center">
+                {{ this.page.section2artikel_title }}
+                <img src="{{ this.page.BASEURL }}{{ this.page.section2artikel_line_image  |media }}" class="mt-5 w-24"
+                    alt="" />
+            </h1>
+            <div class="font-normal leading-snug  font-poppins text-grey lg:w-49">
+                {{ this.page.section2artikel_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% set posts = blogPosts.posts %}
+
+<section class="mt-20">
+    <div class="container mx-auto  md:p-8 p-8 ">
+        <ul class="post-list grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+            {% for post in posts %}
+            <li class="card w-full mt-8">
+                {% if post.featured_images.count %}
+                <div class="featured-images text-center">
+                    {% for image in post.featured_images %}
+                    <p>
+                        <img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"
+                            class="w-full"/>
+                    </p>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <p class="info mt-5 mb-1 font-medium text-grey">
+                    {% if post.categories.count %} in {% endif %}
+                    {% for category in post.categories %}
+                    <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                    <span class="text-sm">{{ post.published_at|date('M d, Y') }}</span>
+                </p>
+
+                <h3 class="hover:text-orange1 text-blueOld transition-colors ease-in-out duration-300"><a
+                        href="{{ post.url }}" class="text-xl font-bold">{{ post.title }}</a></h3>
+
+                <p class="excerpt mt-5 text-grey3 leading-relaxed ">{{ post.summary|raw }}</p>
+                <h5
+                    class="mt-5 font-semibold hover:text-orange1 text-blueOld transition-colors ease-in-out duration-300">
+                    <a href="{{ post.url }}" class="flex items-center gap-2">
+                        Selengkapnya <span class="iconify text-xl" data-icon="codicon:arrow-small-right"></span>
+                    </a>
+                </h5>
+            </li>
+            {% else %}
+            <li class="no-data">{{ blogPosts.noPostsMessage }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+{% if posts.lastPage > 1 %}
+    <ul class="pagination flex items-center gap-2 mx-auto w-max mt-10">
+        {% if posts.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName}}?{{  blogPosts.pageParam }}={{ posts.currentPage-1 }}"> <span class="iconify text-3xl text-orange1" data-icon="cil:arrow-circle-left"></span></a>
+            </li>
+        {% endif %}
+
+        
+        {% for page in 1..posts.lastPage %}
+            <li class="{{ posts.currentPage == page ? 'bg-orange1 text-white' : 'bg-slate-200' }} w-10 h-10 flex items-center justify-center rounded-full transition-colors hover:bg-orange1 hover:text-white hover:cursor-pointer  ">
+                <a href="{{ this.page.baseFileName}}?{{  blogPosts.pageParam }}={{ page }}">{{ page }}</a>                
+            </li>
+        {% endfor %}
+
+        {% if posts.lastPage > posts.currentPage %}
+            <li><a href="{{ this.page.baseFileName}}?{{  blogPosts.pageParam }}={{ posts.currentPage+1 }}"> <span class="iconify text-3xl text-orange1" data-icon="cil:arrow-circle-right"></span></a>
+            </li>
+        {% endif %}
+    </ul>
+{% endif %}
+
+
+{% partial 'site/footer' title=this.page.footerartikel_title address=this.page.footerartikel_address
+email=this.page.footerartikel_email
+phone=this.page.footerartikel_phone copyright=this.page.footerartikel_copyright
+background=this.page.footerartikel_background
+logo=this.page.footerartikel_logo link1=this.page.navbarartikel_link1 link2=this.page.navbarartikel_link2
+link3=this.page.navbarartikel_link3
+link4=this.page.navbarartikel_link4
+link5=this.page.navbarartikel_link5 link6=this.page.navbarartikel_link6 social_media=viewBag.footersosmedartikel
+link7=this.page.navbarartikel_link7 url=BASEURL %}";s:5:"mtime";i:1654096488;s:6:"markup";s:5109:"{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+{% partial 'site/header' link1=this.page.navbarartikel_link1 link2=this.page.navbarartikel_link2
+link3=this.page.navbarartikel_link3
+link4=this.page.navbarartikel_link4 link5=this.page.navbarartikel_link5 link6=this.page.navbarartikel_link6
+link7=this.page.navbarartikel_link7
+logo=this.page.navbarartikel_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1artikel_title bg=this.page.section1artikel_background url=BASEURL %}
+
+
+<section class="mt-20">
+    <div class="container mx-auto">
+        <div class="title-tracking text-center mb-15 font-poppins p-8 flex flex-col items-center justify-center">
+            <h1
+                class="font-extrabold text-4xl text-center mb-12 text-blueOld flex items-center flex-col justify-center">
+                {{ this.page.section2artikel_title }}
+                <img src="{{ this.page.BASEURL }}{{ this.page.section2artikel_line_image  |media }}" class="mt-5 w-24"
+                    alt="" />
+            </h1>
+            <div class="font-normal leading-snug  font-poppins text-grey lg:w-49">
+                {{ this.page.section2artikel_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% set posts = blogPosts.posts %}
+
+<section class="mt-20">
+    <div class="container mx-auto  md:p-8 p-8 ">
+        <ul class="post-list grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+            {% for post in posts %}
+            <li class="card w-full mt-8">
+                {% if post.featured_images.count %}
+                <div class="featured-images text-center">
+                    {% for image in post.featured_images %}
+                    <p>
+                        <img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"
+                            class="w-full"/>
+                    </p>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <p class="info mt-5 mb-1 font-medium text-grey">
+                    {% if post.categories.count %} in {% endif %}
+                    {% for category in post.categories %}
+                    <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                    <span class="text-sm">{{ post.published_at|date('M d, Y') }}</span>
+                </p>
+
+                <h3 class="hover:text-orange1 text-blueOld transition-colors ease-in-out duration-300"><a
+                        href="{{ post.url }}" class="text-xl font-bold">{{ post.title }}</a></h3>
+
+                <p class="excerpt mt-5 text-grey3 leading-relaxed ">{{ post.summary|raw }}</p>
+                <h5
+                    class="mt-5 font-semibold hover:text-orange1 text-blueOld transition-colors ease-in-out duration-300">
+                    <a href="{{ post.url }}" class="flex items-center gap-2">
+                        Selengkapnya <span class="iconify text-xl" data-icon="codicon:arrow-small-right"></span>
+                    </a>
+                </h5>
+            </li>
+            {% else %}
+            <li class="no-data">{{ blogPosts.noPostsMessage }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+{% if posts.lastPage > 1 %}
+    <ul class="pagination flex items-center gap-2 mx-auto w-max mt-10">
+        {% if posts.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName}}?{{  blogPosts.pageParam }}={{ posts.currentPage-1 }}"> <span class="iconify text-3xl text-orange1" data-icon="cil:arrow-circle-left"></span></a>
+            </li>
+        {% endif %}
+
+        
+        {% for page in 1..posts.lastPage %}
+            <li class="{{ posts.currentPage == page ? 'bg-orange1 text-white' : 'bg-slate-200' }} w-10 h-10 flex items-center justify-center rounded-full transition-colors hover:bg-orange1 hover:text-white hover:cursor-pointer  ">
+                <a href="{{ this.page.baseFileName}}?{{  blogPosts.pageParam }}={{ page }}">{{ page }}</a>                
+            </li>
+        {% endfor %}
+
+        {% if posts.lastPage > posts.currentPage %}
+            <li><a href="{{ this.page.baseFileName}}?{{  blogPosts.pageParam }}={{ posts.currentPage+1 }}"> <span class="iconify text-3xl text-orange1" data-icon="cil:arrow-circle-right"></span></a>
+            </li>
+        {% endif %}
+    </ul>
+{% endif %}
+
+
+{% partial 'site/footer' title=this.page.footerartikel_title address=this.page.footerartikel_address
+email=this.page.footerartikel_email
+phone=this.page.footerartikel_phone copyright=this.page.footerartikel_copyright
+background=this.page.footerartikel_background
+logo=this.page.footerartikel_logo link1=this.page.navbarartikel_link1 link2=this.page.navbarartikel_link2
+link3=this.page.navbarartikel_link3
+link4=this.page.navbarartikel_link4
+link5=this.page.navbarartikel_link5 link6=this.page.navbarartikel_link6 social_media=viewBag.footersosmedartikel
+link7=this.page.navbarartikel_link7 url=BASEURL %}";s:4:"code";N;s:5:"title";s:7:"Artikel";s:3:"url";s:8:"/artikel";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"BASEURL";s:32:"http://localhost:8080/fourcargo/";s:21:"section1artikel_title";s:7:"Artikel";s:26:"section1artikel_background";s:7:"/bg.jpg";s:21:"section2artikel_title";s:7:"Artikel";s:27:"section2artikel_description";s:122:"<p>Informasi seputar pengiriman cargo jalur laut atau jalur udara, jasa pembelian barang import dan jasa transfer RMB.</p>";s:26:"section2artikel_line_image";s:10:"/line2.png";s:18:"navbarartikel_logo";s:9:"/logo.png";s:19:"navbarartikel_link1";s:4:"Home";s:19:"navbarartikel_link2";s:5:"About";s:19:"navbarartikel_link3";s:7:"Service";s:19:"navbarartikel_link4";s:8:"Tracking";s:19:"navbarartikel_link5";s:12:"Jasa Belanja";s:19:"navbarartikel_link6";s:7:"Artikel";s:19:"navbarartikel_link7";s:7:"Contact";s:18:"footerartikel_logo";s:9:"/logo.png";s:19:"footerartikel_title";s:23:"CV. Dermaga Mulia Abadi";s:21:"footerartikel_address";s:126:"<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>";s:19:"footerartikel_email";s:32:"<p>customercare@fourcargo.id</p>";s:19:"footerartikel_phone";s:50:"<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>";s:23:"footerartikel_copyright";s:62:"<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>";s:24:"footerartikel_background";s:11:"/footer.jpg";s:7:"viewBag";a:1:{s:19:"footersosmedartikel";a:2:{i:0;a:2:{s:4:"icon";s:44:"/uploaded-files/akar-icons_facebook-fill.png";s:11:"link_sosmed";s:0:"";}i:1;a:2:{s:4:"icon";s:55:"/uploaded-files/entypo-social_instagram-with-circle.png";s:11:"link_sosmed";s:0:"";}}}s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:2:"12";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:16:"published_at asc";s:12:"categoryPage";s:5:"about";s:8:"postPage";s:12:"artikel-post";}}}

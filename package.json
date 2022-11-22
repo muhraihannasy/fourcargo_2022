@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch": "npx tailwindcss -i ./themes/fourcargo/assets/css/input.css -o ./themes/fourcargo/assets/css/output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
+             

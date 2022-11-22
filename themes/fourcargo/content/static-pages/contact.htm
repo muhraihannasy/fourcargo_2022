@@ -1,0 +1,59 @@
+[viewBag]
+title = "Contact"
+url = "/contact"
+is_hidden = 0
+navigation_hidden = 0
+==
+<section class="bg-orange1 mt-14">
+	<div class="md:container md:mx-auto">
+		<div class="content grid lg:grid-cols-2 grid-cols-1 sm:p-16 p-8">
+			<div>
+				<div class="font-bold text-white mb-10">{% content 'Home-hitung-biaya-pengiriman-title.htm' %}</div>
+				<div class="p-medium text-white">
+					<label class="font-bold">Jalur Pengiriman</label>
+					<div class="flex mt-2 gap-6">
+						<div class="flex gap-2 items-center">
+							<input type="radio" name="pengiriman" id="via_laut" value="on">
+							<label for="via_laut">Via Laut</label>
+						</div>
+						<div class="flex gap-2 items-center">
+							<input type="radio" name="pengiriman" id="via_udara" value="on">
+							<label for="via_udara">Via Udara</label>
+						</div></div></div>
+				<div class="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-3 p-medium font-bold text-white">
+					<div class="input-group">
+						<label for="kategori">Kategori Barang</label>
+						<select id="kategori">&nbsp;
+							<option value="tas">Tas</option>
+							<option value="saab">Baju</option>
+							<option value="opel">Opel</option>
+							<option value="audi">Audi</option>&nbsp;</select>
+					</div>
+					<div class="input-group">
+						<label for="berat">Berat (Kg)</label>
+						<input type="text" name="berat" id="berat" value="">
+					</div>
+					<div class="input-group">
+						<label for="volume">Volume (m3)</label>
+						<input type="text" name="volume" id="volume" value="">
+					</div>
+					<div class="input-group">
+						<label for="panjang">Panjang (cm)</label>
+						<input type="text" name="panjang" id="panjang" value="">
+					</div>
+					<div class="input-group">
+						<label for="lebar">Lebar (cm)</label>
+						<input type="text" name="lebar" id="lebar" value="">
+					</div>
+					<div class="input-group">
+						<label for="tinggi">Tinggi (cm)</label>
+						<input type="text" name="tinggi" id="tinggi" value="">
+					</div></div></div>
+			<div class="flex flex-col justify-start items-center lg:mt-0 mt-10"><img src="{{%20'assets/image/country.png'%7Ctheme%20}}" alt="" class="w-80 fr-fic fr-dii">
+				<div class="card bg-linear-text-orange pt-2 pb-10 px-3 rounded-3xl w-fit font-semibold text-white mt-10">
+					<br>
+				</div>
+				<button class="btn-submit mt-5 text-white border-white border rounded-full bg-orange2 shadow-btn-sh h-8 font-semibold" type="submit">&nbsp;CEK HARGA&nbsp;</button>
+			</div></div>
+		<div class="description text-white font-semibold lg:-translate-y-9 sm:px-20 px-8 sm:pb-16 pb-8">{% content 'Home-hitung-biaya-pengiriman-description.htm' %}</div></div>
+</section>

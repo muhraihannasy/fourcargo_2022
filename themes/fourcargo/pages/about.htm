@@ -1,0 +1,132 @@
+title = "About"
+url = "/about"
+layout = "default"
+is_hidden = 0
+section1about_title = "About"
+section1about_background = "/bg.jpg"
+section2about_title = "Our Company"
+section2about_description = "<p style=\"text-align: center;\"><strong>Four Cargo adalah jasa import China ke Indonesia Berpengalaman, FourCargo.id adalah pilihan yang paling tepat untuk layanan perusahaan cross border logistic untuk import nyaman dan aman dengan estimasi yang TEPAT &amp; CEPAT dari pengalaman kami banyak sekali yang menjadi kendala import barang dari China, oleh karena itu Four Cargo hadir untuk menjadi pilihan terbaik bagi calon importir di indonesia untuk memenuhi kebutuhan anda.s</strong></p>
+
+<p style=\"text-align: center;\"><strong><br></strong></p>
+
+<p style=\"text-align: center;\"><strong>Four Cargo berada dibawah naungan CV. Dermaga Mulia Abadi</strong></p>"
+section2about_line_Image = "/line2.png"
+navbarabout_logo = "/logo.png"
+navbarabout_link1 = "Home"
+navbarabout_link2 = "About"
+navbarabout_link3 = "Service"
+navbarabout_link4 = "Tracking"
+navbarabout_link5 = "Jasa Belanja"
+navbarabout_link6 = "Artikel"
+navbarabout_link7 = "Contact"
+footernavbar_logo = "/logo.png"
+footernavbar_title = "CV. Dermaga Mulia Abadi"
+footernavbar_address = "<p>Ruko Silma, Jl Dermaga Raya No.322&nbsp;</p>
+
+<p>Klender, Duren Sawit, Jakarta Timur 13470&nbsp;</p>
+
+<p>Indonesia.</p>"
+footernavbar_email = "<p>customercare@fourcargo.id</p>"
+footernavbar_phone = "<p>021-29191770&nbsp;</p>
+
+<p>0821-1444-4792</p>"
+footernavbar_copyright = "<p>© 2022 Four Cargo Jasa Freight Forwarder International</p>"
+footernavbar_background = "/footer.jpg"
+section3about_title = "Warehouse Luar Negeri"
+section3about_description = "<p style=\"text-align: center;\"><strong>Kami memiliki warehouse sendiri di berbagai negara yaitu :</strong> </p>"
+
+[viewBag]
+cardservice[0][country] = "China"
+cardservice[0][city] = "(Guangzhou)"
+cardservice[0][icon] = "/placeholder.png"
+cardservice[0][image] = "/1.png"
+cardservice[1][country] = "China"
+cardservice[1][city] = "(Shenzen)"
+cardservice[1][icon] = "/placeholder.png"
+cardservice[1][image] = "/2.png"
+cardservice[2][country] = "China"
+cardservice[2][city] = "(Yiwu)"
+cardservice[2][icon] = "/placeholder.png"
+cardservice[2][image] = "/3.png"
+cardservice[3][country] = "Singapore"
+cardservice[3][city] = "(Changi Airport)"
+cardservice[3][icon] = "/placeholder.png"
+cardservice[3][image] = "/4.png"
+cardservice[4][country] = "Thailand"
+cardservice[4][city] = "(Phaya Thai)"
+cardservice[4][icon] = "/placeholder.png"
+cardservice[4][image] = "/5.png"
+cardservice[5][country] = "Taiwan"
+cardservice[5][city] = "(Taipei)"
+cardservice[5][icon] = "/placeholder.png"
+cardservice[5][image] = "/6.png"
+cardservice[6][country] = "Korea"
+cardservice[6][city] = "(Incheon)"
+cardservice[6][icon] = "/placeholder.png"
+cardservice[6][image] = "/7.png"
+cardservice[7][country] = "Hongkong"
+cardservice[7][city] = "(Kwai Chung)"
+cardservice[7][icon] = "/placeholder.png"
+cardservice[7][image] = "/8.png"
+footersosmedabout[0][icon] = "/uploaded-files/akar-icons_facebook-fill.png"
+footersosmedabout[0][link] = ""
+footersosmedabout[1][icon] = "/uploaded-files/entypo-social_instagram-with-circle.png"
+footersosmedabout[1][link] = ""
+==
+{% set BASEURL = 'http://localhost:8080/fourcargo' %}
+
+{% partial 'site/header' link1=this.page.navbarabout_link1 link2=this.page.navbarabout_link2
+link3=this.page.navbarabout_link3
+link4=this.page.navbarabout_link4 link5=this.page.navbarabout_link5 link6=this.page.navbarabout_link6 link7=this.page.navbarabout_link7
+logo=this.page.navbarabout_logo url=BASEURL %}
+{% partial 'site/banner-service' title=this.page.section1about_title bg=this.page.section1about_background url=BASEURL %}
+
+<section class="">
+    <div class="container mx-auto ">
+        <div class="title-tracking text-center mb-15 font-poppins p-8 ">
+            <h1 class="text-orange1 font-bold text-4xl text-center mx-auto bg-white drop-shadow-xl py-3 px-10 w-fit mb-8">
+                {{ this.page.section2about_title }}
+            </h1>
+            <div class="font-normal leading-snug font-poppins text-xl mx-auto text-grey3 lg:w-49">
+                {{ this.page.section2about_description|raw }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container mx-auto p-8 md:p-16">
+        <h1 class="text-orange1 font-bold text-4xl text-center mx-auto bg-white drop-shadow-xl py-3 px-10 w-fit mb-8">
+            {{ this.page.section3about_title }}
+        </h1>
+        <div class="font-normal leading-snug font-poppins text-xl mx-auto text-grey3 lg:w-49 mb-10">
+            {{ this.page.section3about_description|raw }}
+        </div>
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+
+            {% for card in viewBag.cardservice %}
+                <div class="card w-full bg-white shadow-xl mb-4">
+                    <div class="card-image p-2 mt-3">
+                        <img src="{{ BASEURL }}{{ card.image |media}}" alt="">
+                    </div>
+                    <div class="card-content p-4 text-center font-bold text-2xl">
+                        <img src="{{ BASEURL }}{{ card.icon|media }}" class="mx-auto w-16 mb-5" alt="">
+                        <h1 class="text-reds">
+                            {{ card.country }}
+                        </h1>
+                        <h1 class="text-grey3">
+                            {{ card.city }}
+                        </h1>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+{% partial 'site/footer' title=this.page.footernavbar_title address=this.page.footernavbar_address email=this.page.footernavbar_email
+phone=this.page.footernavbar_phone copyright=this.page.footernavbar_copyright background=this.page.footernavbar_background
+logo=this.page.footernavbar_logo link1=this.page.navbarabout_link1 link2=this.page.navbarabout_link2 link3=this.page.navbarabout_link3
+link4=this.page.navbarabout_link4
+link5=this.page.navbarabout_link5 link6=this.page.navbarabout_link6 social_media=viewBag.footersosmedabout link7=this.page.navbarabout_link7 url=BASEURL %}

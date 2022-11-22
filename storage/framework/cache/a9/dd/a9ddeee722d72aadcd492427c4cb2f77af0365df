@@ -1,0 +1,53 @@
+1668715219a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1904:"<header class="w-full absolute tablets-mini:relative tablets-mini:bg-orange1 md:top-4 top-0 left-0 flex items-center justify-center p-8 tablets-mini:py-0 z-50">
+    <nav class="relative md:container md:mx-auto w-full flex items-center justify-between text-white">
+        <a class="nav-logo">
+            <img src="{{ url }}{{ logo |media }}" alt="Logo"
+                class="block w-40 tablets-mini:w-[5rem] absolute tablets-mini:relative tablets-mini:top-[0px] md:-top-20 -top-14 sm:left-6 left-0 mb-2" />
+        </a>
+
+        <ul
+            class="nav flex md:items-center md:justify-between gap-4 lg:gap-9 md:gap-4 md:text-md text-md font-semibold md:flex md:static md:flex-row flex-col fixed md:bg-transparent bg-white md:text-white text-orange1 md:p-0 p-6 top-0 md:w-fit w-60 ease-out duration-300 md:h-fit h-full md:opacity-100 opacity-0 -left-72">
+            <li class="md:hidden -translate-x-1 btn-nav-close">
+                <span class="iconify text-4xl cursor-pointer mb-4" data-icon="radix-icons:cross-2"></span>
+            </li>
+            <li class="link-navbar"><a href="{{ 'home'|page }} " class="">{{ link1 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'about'|page }}">{{ link2 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'our-service-air'|page }}">{{ link3 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'tracking'|page }}">{{ link4 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'jasa-belanja'|page }}">{{ link5 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'artikel'|page }}">{{ link6 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'contact'|page }}">{{ link7 }}</a></li>
+        </ul>
+
+        <button class="md:hidden block btn-nav-open">
+            <span class="iconify text-4xl" data-icon="fluent:list-16-filled"></span>
+        </button>
+    </nav>
+</header>
+
+";s:5:"mtime";i:1668714617;s:6:"markup";s:1900:"<header class="w-full absolute tablets-mini:relative tablets-mini:bg-orange1 md:top-4 top-0 left-0 flex items-center justify-center p-8 tablets-mini:py-0 z-50">
+    <nav class="relative md:container md:mx-auto w-full flex items-center justify-between text-white">
+        <a class="nav-logo">
+            <img src="{{ url }}{{ logo |media }}" alt="Logo"
+                class="block w-40 tablets-mini:w-[5rem] absolute tablets-mini:relative tablets-mini:top-[0px] md:-top-20 -top-14 sm:left-6 left-0 mb-2" />
+        </a>
+
+        <ul
+            class="nav flex md:items-center md:justify-between gap-4 lg:gap-9 md:gap-4 md:text-md text-md font-semibold md:flex md:static md:flex-row flex-col fixed md:bg-transparent bg-white md:text-white text-orange1 md:p-0 p-6 top-0 md:w-fit w-60 ease-out duration-300 md:h-fit h-full md:opacity-100 opacity-0 -left-72">
+            <li class="md:hidden -translate-x-1 btn-nav-close">
+                <span class="iconify text-4xl cursor-pointer mb-4" data-icon="radix-icons:cross-2"></span>
+            </li>
+            <li class="link-navbar"><a href="{{ 'home'|page }} " class="">{{ link1 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'about'|page }}">{{ link2 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'our-service-air'|page }}">{{ link3 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'tracking'|page }}">{{ link4 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'jasa-belanja'|page }}">{{ link5 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'artikel'|page }}">{{ link6 }}</a></li>
+            <li class="link-navbar"><a href="{{ 'contact'|page }}">{{ link7 }}</a></li>
+        </ul>
+
+        <button class="md:hidden block btn-nav-open">
+            <span class="iconify text-4xl" data-icon="fluent:list-16-filled"></span>
+        </button>
+    </nav>
+</header>";s:4:"code";N;}}
